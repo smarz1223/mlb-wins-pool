@@ -337,17 +337,20 @@ def build_owner_standings(live_teams, projections):
                 "owner": owner,
                 "teams": [],
                 "w": 0, "l": 0, "rd": 0,
-                "proj_w": 0.0, "proj_sim_pct": 0.0,
+                "proj_sim_pct": 0.0,
+                "g_played": 0, "g_rem": 0,
             }
         owners[owner]["teams"].append(team)
 
         if team in live_teams:
+            g = live_teams[team]["w"] + live_teams[team]["l"]
             owners[owner]["w"] += live_teams[team]["w"]
             owners[owner]["l"] += live_teams[team]["l"]
             owners[owner]["rd"] += live_teams[team]["rd"]
+            owners[owner]["g_played"] += g
+            owners[owner]["g_rem"] += max(0, 162 - g)
 
         if team in projections:
-            owners[owner]["proj_w"] += projections[team]["sim_w"]
             owners[owner]["proj_sim_pct"] += projections[team]["sim_pct"]
 
     result = []
@@ -355,32 +358,27 @@ def build_owner_standings(live_teams, projections):
         g = d["w"] + d["l"]
         pct = round(d["w"] / g, 6) if g > 0 else 0
         avg_proj_pct = round(d["proj_sim_pct"] / 3, 6)
+        proj_wins = round(avg_proj_pct * (d["g_played"] + d["g_rem"]), 1)
         result.append({
             "owner": owner,
             "teams": d["teams"],
             "w": d["w"], "l": d["l"], "rd": d["rd"],
             "pct": pct,
-            "proj_w": round(d["proj_w"], 1),
             "proj_pct": avg_proj_pct,
+            "proj_wins": proj_wins,
+            "g_rem": d["g_rem"],
         })
 
-    # Sort by pct desc, rd desc as tiebreaker
     result.sort(key=lambda x: (x["pct"], x["rd"]), reverse=True)
 
-    # Assign rank and GB vs leader
     if result:
-        leader_pct = result[0]["pct"]
-        leader_g = result[0]["w"] + result[0]["l"]
+        leader_pw = result[0]["proj_wins"]
         for i, row in enumerate(result):
             row["rank"] = i + 1
-            g = row["w"] + row["l"]
-            if i == 0:
-                row["gb"] = 0
-            else:
-                # GB = ((leader_w - leader_l) - (row_w - row_l)) / 2
-                row["gb"] = round(
-                    ((result[0]["w"] - result[0]["l"]) - (row["w"] - row["l"])) / 2, 1
-                )
+            row["gb"] = round(
+                ((result[0]["w"] - result[0]["l"]) - (row["w"] - row["l"])) / 2, 1
+            ) if i > 0 else 0
+            row["proj_wins_behind"] = round(leader_pw - row["proj_wins"], 1)
 
     return result
 
