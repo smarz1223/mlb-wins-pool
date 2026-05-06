@@ -1,0 +1,1719 @@
+{
+  "updated": "2026-05-06 19:38:52",
+  "season": 2026,
+  "standings": [
+    {
+      "owner": "Jimmy",
+      "teams": [
+        "LAD",
+        "TBR",
+        "STL"
+      ],
+      "w": 66,
+      "l": 40,
+      "rd": 82,
+      "pct": 0.622642,
+      "proj_w": 265.1,
+      "proj_pct": 0.545333,
+      "rank": 1,
+      "gb": 0
+    },
+    {
+      "owner": "Adam B",
+      "teams": [
+        "ATL",
+        "BAL",
+        "STL"
+      ],
+      "w": 63,
+      "l": 45,
+      "rd": 45,
+      "pct": 0.583333,
+      "proj_w": 250.2,
+      "proj_pct": 0.514667,
+      "rank": 2,
+      "gb": 4.0
+    },
+    {
+      "owner": "Ant",
+      "teams": [
+        "NYY",
+        "CLE",
+        "PIT"
+      ],
+      "w": 62,
+      "l": 47,
+      "rd": 92,
+      "pct": 0.568807,
+      "proj_w": 259.1,
+      "proj_pct": 0.533333,
+      "rank": 3,
+      "gb": 5.5
+    },
+    {
+      "owner": "Fur",
+      "teams": [
+        "CHC",
+        "TEX",
+        "ATH"
+      ],
+      "w": 58,
+      "l": 48,
+      "rd": 22,
+      "pct": 0.54717,
+      "proj_w": 257.3,
+      "proj_pct": 0.529667,
+      "rank": 4,
+      "gb": 8.0
+    },
+    {
+      "owner": "Lon",
+      "teams": [
+        "NYM",
+        "SDP",
+        "CIN"
+      ],
+      "w": 54,
+      "l": 52,
+      "rd": -50,
+      "pct": 0.509434,
+      "proj_w": 242.6,
+      "proj_pct": 0.499,
+      "rank": 5,
+      "gb": 12.0
+    },
+    {
+      "owner": "Marz",
+      "teams": [
+        "PHI",
+        "ARI",
+        "PIT"
+      ],
+      "w": 52,
+      "l": 54,
+      "rd": -34,
+      "pct": 0.490566,
+      "proj_w": 246.7,
+      "proj_pct": 0.508,
+      "rank": 6,
+      "gb": 14.0
+    },
+    {
+      "owner": "Dom",
+      "teams": [
+        "TOR",
+        "KCR",
+        "ATH"
+      ],
+      "w": 51,
+      "l": 56,
+      "rd": -48,
+      "pct": 0.476636,
+      "proj_w": 238.9,
+      "proj_pct": 0.491667,
+      "rank": 7,
+      "gb": 15.5
+    },
+    {
+      "owner": "Phil",
+      "teams": [
+        "SEA",
+        "SFG",
+        "CIN"
+      ],
+      "w": 51,
+      "l": 58,
+      "rd": -52,
+      "pct": 0.46789,
+      "proj_w": 243.7,
+      "proj_pct": 0.501333,
+      "rank": 8,
+      "gb": 16.5
+    },
+    {
+      "owner": "Fig",
+      "teams": [
+        "BOS",
+        "MIL",
+        "MIA"
+      ],
+      "w": 49,
+      "l": 57,
+      "rd": 27,
+      "pct": 0.462264,
+      "proj_w": 235.5,
+      "proj_pct": 0.484667,
+      "rank": 9,
+      "gb": 17.0
+    },
+    {
+      "owner": "Kev",
+      "teams": [
+        "DET",
+        "HOU",
+        "MIN"
+      ],
+      "w": 49,
+      "l": 61,
+      "rd": -14,
+      "pct": 0.445455,
+      "proj_w": 236.3,
+      "proj_pct": 0.486333,
+      "rank": 10,
+      "gb": 19.0
+    }
+  ],
+  "team_rows": [
+    {
+      "pick": 1,
+      "owner": "Jimmy",
+      "team": "LAD",
+      "name": "Los Angeles Dodgers",
+      "w2025": 93,
+      "proj_w": 96,
+      "w": 22,
+      "l": 14,
+      "rd": 67,
+      "pct": 0.611111,
+      "sim_w": 101.3,
+      "sim_pct": 0.625,
+      "playoff_pct": 99.9,
+      "ws_pct": 20.0,
+      "proj_change": -0.013889
+    },
+    {
+      "pick": 2,
+      "owner": "Lon",
+      "team": "NYM",
+      "name": "New York Mets",
+      "w2025": 83,
+      "proj_w": 88,
+      "w": 13,
+      "l": 22,
+      "rd": -29,
+      "pct": 0.371429,
+      "sim_w": 81.7,
+      "sim_pct": 0.504,
+      "playoff_pct": 38.2,
+      "ws_pct": 2.1,
+      "proj_change": -0.132571
+    },
+    {
+      "pick": 3,
+      "owner": "Ant",
+      "team": "NYY",
+      "name": "New York Yankees",
+      "w2025": 94,
+      "proj_w": 87,
+      "w": 25,
+      "l": 11,
+      "rd": 79,
+      "pct": 0.694444,
+      "sim_w": 95.9,
+      "sim_pct": 0.592,
+      "playoff_pct": 98.8,
+      "ws_pct": 17.1,
+      "proj_change": 0.102444
+    },
+    {
+      "pick": 4,
+      "owner": "Marz",
+      "team": "PHI",
+      "name": "Philadelphia Phillies",
+      "w2025": 96,
+      "proj_w": 87,
+      "w": 16,
+      "l": 20,
+      "rd": -34,
+      "pct": 0.444444,
+      "sim_w": 85.3,
+      "sim_pct": 0.527,
+      "playoff_pct": 65.2,
+      "ws_pct": 3.8,
+      "proj_change": -0.082556
+    },
+    {
+      "pick": 5,
+      "owner": "Phil",
+      "team": "SEA",
+      "name": "Seattle Mariners",
+      "w2025": 90,
+      "proj_w": 88,
+      "w": 17,
+      "l": 20,
+      "rd": 2,
+      "pct": 0.459459,
+      "sim_w": 88.9,
+      "sim_pct": 0.549,
+      "playoff_pct": 86.3,
+      "ws_pct": 11.6,
+      "proj_change": -0.089541
+    },
+    {
+      "pick": 6,
+      "owner": "Dom",
+      "team": "TOR",
+      "name": "Toronto Blue Jays",
+      "w2025": 94,
+      "proj_w": 86,
+      "w": 16,
+      "l": 20,
+      "rd": -19,
+      "pct": 0.444444,
+      "sim_w": 82.2,
+      "sim_pct": 0.507,
+      "playoff_pct": 40.3,
+      "ws_pct": 1.4,
+      "proj_change": -0.062556
+    },
+    {
+      "pick": 7,
+      "owner": "Fur",
+      "team": "CHC",
+      "name": "Chicago Cubs",
+      "w2025": 92,
+      "proj_w": 84,
+      "w": 24,
+      "l": 12,
+      "rd": 44,
+      "pct": 0.666667,
+      "sim_w": 95.1,
+      "sim_pct": 0.587,
+      "playoff_pct": 98.3,
+      "ws_pct": 8.0,
+      "proj_change": 0.079667
+    },
+    {
+      "pick": 8,
+      "owner": "Adam B",
+      "team": "ATL",
+      "name": "Atlanta Braves",
+      "w2025": 76,
+      "proj_w": 88,
+      "w": 26,
+      "l": 11,
+      "rd": 81,
+      "pct": 0.702703,
+      "sim_w": 94.0,
+      "sim_pct": 0.58,
+      "playoff_pct": 96.9,
+      "ws_pct": 8.3,
+      "proj_change": 0.122703
+    },
+    {
+      "pick": 9,
+      "owner": "Fig",
+      "team": "BOS",
+      "name": "Boston Red Sox",
+      "w2025": 89,
+      "proj_w": 85,
+      "w": 15,
+      "l": 21,
+      "rd": -11,
+      "pct": 0.416667,
+      "sim_w": 77.6,
+      "sim_pct": 0.479,
+      "playoff_pct": 14.5,
+      "ws_pct": 0.4,
+      "proj_change": -0.062333
+    },
+    {
+      "pick": 10,
+      "owner": "Kev",
+      "team": "DET",
+      "name": "Detroit Tigers",
+      "w2025": 87,
+      "proj_w": 86,
+      "w": 18,
+      "l": 19,
+      "rd": 10,
+      "pct": 0.486486,
+      "sim_w": 82.8,
+      "sim_pct": 0.511,
+      "playoff_pct": 52.2,
+      "ws_pct": 3.6,
+      "proj_change": -0.024514
+    },
+    {
+      "pick": 11,
+      "owner": "Kev",
+      "team": "HOU",
+      "name": "Houston Astros",
+      "w2025": 87,
+      "proj_w": 81,
+      "w": 15,
+      "l": 22,
+      "rd": -27,
+      "pct": 0.405405,
+      "sim_w": 75.8,
+      "sim_pct": 0.468,
+      "playoff_pct": 9.4,
+      "ws_pct": 0.2,
+      "proj_change": -0.062595
+    },
+    {
+      "pick": 12,
+      "owner": "Fig",
+      "team": "MIL",
+      "name": "Milwaukee Brewers",
+      "w2025": 97,
+      "proj_w": 81,
+      "w": 18,
+      "l": 16,
+      "rd": 42,
+      "pct": 0.529412,
+      "sim_w": 82.8,
+      "sim_pct": 0.511,
+      "playoff_pct": 47.3,
+      "ws_pct": 1.8,
+      "proj_change": 0.018412
+    },
+    {
+      "pick": 13,
+      "owner": "Adam B",
+      "team": "BAL",
+      "name": "Baltimore Orioles",
+      "w2025": 75,
+      "proj_w": 84,
+      "w": 16,
+      "l": 20,
+      "rd": -39,
+      "pct": 0.444444,
+      "sim_w": 81.3,
+      "sim_pct": 0.502,
+      "playoff_pct": 36.3,
+      "ws_pct": 2.4,
+      "proj_change": -0.057556
+    },
+    {
+      "pick": 14,
+      "owner": "Fur",
+      "team": "TEX",
+      "name": "Texas Rangers",
+      "w2025": 81,
+      "proj_w": 81,
+      "w": 16,
+      "l": 19,
+      "rd": -4,
+      "pct": 0.457143,
+      "sim_w": 85.8,
+      "sim_pct": 0.53,
+      "playoff_pct": 69.4,
+      "ws_pct": 5.0,
+      "proj_change": -0.072857
+    },
+    {
+      "pick": 15,
+      "owner": "Dom",
+      "team": "KCR",
+      "name": "Kansas City Royals",
+      "w2025": 82,
+      "proj_w": 81,
+      "w": 17,
+      "l": 19,
+      "rd": -11,
+      "pct": 0.472222,
+      "sim_w": 80.3,
+      "sim_pct": 0.496,
+      "playoff_pct": 32.8,
+      "ws_pct": 1.4,
+      "proj_change": -0.023778
+    },
+    {
+      "pick": 16,
+      "owner": "Phil",
+      "team": "SFG",
+      "name": "San Francisco Giants",
+      "w2025": 81,
+      "proj_w": 82,
+      "w": 14,
+      "l": 22,
+      "rd": -30,
+      "pct": 0.388889,
+      "sim_w": 76.7,
+      "sim_pct": 0.473,
+      "playoff_pct": 12.2,
+      "ws_pct": 1.1,
+      "proj_change": -0.084111
+    },
+    {
+      "pick": 17,
+      "owner": "Marz",
+      "team": "ARI",
+      "name": "Arizona Diamondbacks",
+      "w2025": 80,
+      "proj_w": 81,
+      "w": 17,
+      "l": 17,
+      "rd": -22,
+      "pct": 0.5,
+      "sim_w": 79.8,
+      "sim_pct": 0.493,
+      "playoff_pct": 26.8,
+      "ws_pct": 2.0,
+      "proj_change": 0.007
+    },
+    {
+      "pick": 18,
+      "owner": "Ant",
+      "team": "CLE",
+      "name": "Cleveland Guardians",
+      "w2025": 88,
+      "proj_w": 76,
+      "w": 18,
+      "l": 19,
+      "rd": -9,
+      "pct": 0.486486,
+      "sim_w": 81.6,
+      "sim_pct": 0.504,
+      "playoff_pct": 42.0,
+      "ws_pct": 2.2,
+      "proj_change": -0.017514
+    },
+    {
+      "pick": 19,
+      "owner": "Lon",
+      "team": "SDP",
+      "name": "San Diego Padres",
+      "w2025": 90,
+      "proj_w": 79,
+      "w": 21,
+      "l": 14,
+      "rd": 3,
+      "pct": 0.6,
+      "sim_w": 82.8,
+      "sim_pct": 0.511,
+      "playoff_pct": 46.7,
+      "ws_pct": 4.5,
+      "proj_change": 0.089
+    },
+    {
+      "pick": 20,
+      "owner": "Jimmy",
+      "team": "TBR",
+      "name": "Tampa Bay Rays",
+      "w2025": 77,
+      "proj_w": 81,
+      "w": 23,
+      "l": 12,
+      "rd": 12,
+      "pct": 0.657143,
+      "sim_w": 88.9,
+      "sim_pct": 0.549,
+      "playoff_pct": 85.5,
+      "ws_pct": 7.1,
+      "proj_change": 0.108143
+    },
+    {
+      "pick": 21,
+      "owner": "Jimmy",
+      "team": "STL",
+      "name": "St. Louis Cardinals",
+      "w2025": 78,
+      "proj_w": 75,
+      "w": 21,
+      "l": 14,
+      "rd": 3,
+      "pct": 0.6,
+      "sim_w": 74.9,
+      "sim_pct": 0.462,
+      "playoff_pct": 7.3,
+      "ws_pct": 0.2,
+      "proj_change": 0.138
+    },
+    {
+      "pick": 22,
+      "owner": "Lon",
+      "team": "CIN",
+      "name": "Cincinnati Reds",
+      "w2025": 83,
+      "proj_w": 78,
+      "w": 20,
+      "l": 16,
+      "rd": -24,
+      "pct": 0.555556,
+      "sim_w": 78.1,
+      "sim_pct": 0.482,
+      "playoff_pct": 17.2,
+      "ws_pct": 0.4,
+      "proj_change": 0.073556
+    },
+    {
+      "pick": 23,
+      "owner": "Ant",
+      "team": "PIT",
+      "name": "Pittsburgh Pirates",
+      "w2025": 71,
+      "proj_w": 82,
+      "w": 19,
+      "l": 17,
+      "rd": 22,
+      "pct": 0.527778,
+      "sim_w": 81.6,
+      "sim_pct": 0.504,
+      "playoff_pct": 36.9,
+      "ws_pct": 1.3,
+      "proj_change": 0.023778
+    },
+    {
+      "pick": 24,
+      "owner": "Marz",
+      "team": "PIT",
+      "name": "Pittsburgh Pirates",
+      "w2025": 71,
+      "proj_w": 82,
+      "w": 19,
+      "l": 17,
+      "rd": 22,
+      "pct": 0.527778,
+      "sim_w": 81.6,
+      "sim_pct": 0.504,
+      "playoff_pct": 36.9,
+      "ws_pct": 1.3,
+      "proj_change": 0.023778
+    },
+    {
+      "pick": 25,
+      "owner": "Phil",
+      "team": "CIN",
+      "name": "Cincinnati Reds",
+      "w2025": 83,
+      "proj_w": 78,
+      "w": 20,
+      "l": 16,
+      "rd": -24,
+      "pct": 0.555556,
+      "sim_w": 78.1,
+      "sim_pct": 0.482,
+      "playoff_pct": 17.2,
+      "ws_pct": 0.4,
+      "proj_change": 0.073556
+    },
+    {
+      "pick": 26,
+      "owner": "Dom",
+      "team": "ATH",
+      "name": "Oakland A's",
+      "w2025": 76,
+      "proj_w": 80,
+      "w": 18,
+      "l": 17,
+      "rd": -18,
+      "pct": 0.514286,
+      "sim_w": 76.4,
+      "sim_pct": 0.472,
+      "playoff_pct": 10.9,
+      "ws_pct": 0.6,
+      "proj_change": 0.042286
+    },
+    {
+      "pick": 27,
+      "owner": "Fur",
+      "team": "ATH",
+      "name": "Oakland A's",
+      "w2025": 76,
+      "proj_w": 80,
+      "w": 18,
+      "l": 17,
+      "rd": -18,
+      "pct": 0.514286,
+      "sim_w": 76.4,
+      "sim_pct": 0.472,
+      "playoff_pct": 10.9,
+      "ws_pct": 0.6,
+      "proj_change": 0.042286
+    },
+    {
+      "pick": 28,
+      "owner": "Adam B",
+      "team": "STL",
+      "name": "St. Louis Cardinals",
+      "w2025": 78,
+      "proj_w": 75,
+      "w": 21,
+      "l": 14,
+      "rd": 3,
+      "pct": 0.6,
+      "sim_w": 74.9,
+      "sim_pct": 0.462,
+      "playoff_pct": 7.3,
+      "ws_pct": 0.2,
+      "proj_change": 0.138
+    },
+    {
+      "pick": 29,
+      "owner": "Fig",
+      "team": "MIA",
+      "name": "Miami Marlins",
+      "w2025": 79,
+      "proj_w": 75,
+      "w": 16,
+      "l": 20,
+      "rd": -4,
+      "pct": 0.444444,
+      "sim_w": 75.1,
+      "sim_pct": 0.464,
+      "playoff_pct": 7.0,
+      "ws_pct": 0.1,
+      "proj_change": -0.019556
+    },
+    {
+      "pick": 30,
+      "owner": "Kev",
+      "team": "MIN",
+      "name": "Minnesota Twins",
+      "w2025": 70,
+      "proj_w": 79,
+      "w": 16,
+      "l": 20,
+      "rd": 3,
+      "pct": 0.444444,
+      "sim_w": 77.7,
+      "sim_pct": 0.48,
+      "playoff_pct": 19.2,
+      "ws_pct": 0.6,
+      "proj_change": -0.035556
+    }
+  ],
+  "draft_value": [
+    {
+      "pick": 1,
+      "owner": "Jimmy",
+      "team": "LAD",
+      "name": "Los Angeles Dodgers",
+      "actual_pct": 0.611111,
+      "optimal_pct": 0.702703,
+      "value": -0.091592
+    },
+    {
+      "pick": 2,
+      "owner": "Lon",
+      "team": "NYM",
+      "name": "New York Mets",
+      "actual_pct": 0.371429,
+      "optimal_pct": 0.694444,
+      "value": -0.323015
+    },
+    {
+      "pick": 3,
+      "owner": "Ant",
+      "team": "NYY",
+      "name": "New York Yankees",
+      "actual_pct": 0.694444,
+      "optimal_pct": 0.666667,
+      "value": 0.027777
+    },
+    {
+      "pick": 4,
+      "owner": "Marz",
+      "team": "PHI",
+      "name": "Philadelphia Phillies",
+      "actual_pct": 0.444444,
+      "optimal_pct": 0.657143,
+      "value": -0.212699
+    },
+    {
+      "pick": 5,
+      "owner": "Phil",
+      "team": "SEA",
+      "name": "Seattle Mariners",
+      "actual_pct": 0.459459,
+      "optimal_pct": 0.611111,
+      "value": -0.151652
+    },
+    {
+      "pick": 6,
+      "owner": "Dom",
+      "team": "TOR",
+      "name": "Toronto Blue Jays",
+      "actual_pct": 0.444444,
+      "optimal_pct": 0.6,
+      "value": -0.155556
+    },
+    {
+      "pick": 7,
+      "owner": "Fur",
+      "team": "CHC",
+      "name": "Chicago Cubs",
+      "actual_pct": 0.666667,
+      "optimal_pct": 0.6,
+      "value": 0.066667
+    },
+    {
+      "pick": 8,
+      "owner": "Adam B",
+      "team": "ATL",
+      "name": "Atlanta Braves",
+      "actual_pct": 0.702703,
+      "optimal_pct": 0.6,
+      "value": 0.102703
+    },
+    {
+      "pick": 9,
+      "owner": "Fig",
+      "team": "BOS",
+      "name": "Boston Red Sox",
+      "actual_pct": 0.416667,
+      "optimal_pct": 0.555556,
+      "value": -0.138889
+    },
+    {
+      "pick": 10,
+      "owner": "Kev",
+      "team": "DET",
+      "name": "Detroit Tigers",
+      "actual_pct": 0.486486,
+      "optimal_pct": 0.555556,
+      "value": -0.06907
+    },
+    {
+      "pick": 11,
+      "owner": "Kev",
+      "team": "HOU",
+      "name": "Houston Astros",
+      "actual_pct": 0.405405,
+      "optimal_pct": 0.529412,
+      "value": -0.124007
+    },
+    {
+      "pick": 12,
+      "owner": "Fig",
+      "team": "MIL",
+      "name": "Milwaukee Brewers",
+      "actual_pct": 0.529412,
+      "optimal_pct": 0.527778,
+      "value": 0.001634
+    },
+    {
+      "pick": 13,
+      "owner": "Adam B",
+      "team": "BAL",
+      "name": "Baltimore Orioles",
+      "actual_pct": 0.444444,
+      "optimal_pct": 0.527778,
+      "value": -0.083334
+    },
+    {
+      "pick": 14,
+      "owner": "Fur",
+      "team": "TEX",
+      "name": "Texas Rangers",
+      "actual_pct": 0.457143,
+      "optimal_pct": 0.514286,
+      "value": -0.057143
+    },
+    {
+      "pick": 15,
+      "owner": "Dom",
+      "team": "KCR",
+      "name": "Kansas City Royals",
+      "actual_pct": 0.472222,
+      "optimal_pct": 0.514286,
+      "value": -0.042064
+    },
+    {
+      "pick": 16,
+      "owner": "Phil",
+      "team": "SFG",
+      "name": "San Francisco Giants",
+      "actual_pct": 0.388889,
+      "optimal_pct": 0.5,
+      "value": -0.111111
+    },
+    {
+      "pick": 17,
+      "owner": "Marz",
+      "team": "ARI",
+      "name": "Arizona Diamondbacks",
+      "actual_pct": 0.5,
+      "optimal_pct": 0.486486,
+      "value": 0.013514
+    },
+    {
+      "pick": 18,
+      "owner": "Ant",
+      "team": "CLE",
+      "name": "Cleveland Guardians",
+      "actual_pct": 0.486486,
+      "optimal_pct": 0.486486,
+      "value": 0.0
+    },
+    {
+      "pick": 19,
+      "owner": "Lon",
+      "team": "SDP",
+      "name": "San Diego Padres",
+      "actual_pct": 0.6,
+      "optimal_pct": 0.472222,
+      "value": 0.127778
+    },
+    {
+      "pick": 20,
+      "owner": "Jimmy",
+      "team": "TBR",
+      "name": "Tampa Bay Rays",
+      "actual_pct": 0.657143,
+      "optimal_pct": 0.459459,
+      "value": 0.197684
+    },
+    {
+      "pick": 21,
+      "owner": "Jimmy",
+      "team": "STL",
+      "name": "St. Louis Cardinals",
+      "actual_pct": 0.6,
+      "optimal_pct": 0.457143,
+      "value": 0.142857
+    },
+    {
+      "pick": 22,
+      "owner": "Lon",
+      "team": "CIN",
+      "name": "Cincinnati Reds",
+      "actual_pct": 0.555556,
+      "optimal_pct": 0.444444,
+      "value": 0.111112
+    },
+    {
+      "pick": 23,
+      "owner": "Ant",
+      "team": "PIT",
+      "name": "Pittsburgh Pirates",
+      "actual_pct": 0.527778,
+      "optimal_pct": 0.444444,
+      "value": 0.083334
+    },
+    {
+      "pick": 24,
+      "owner": "Marz",
+      "team": "PIT",
+      "name": "Pittsburgh Pirates",
+      "actual_pct": 0.527778,
+      "optimal_pct": 0.444444,
+      "value": 0.083334
+    },
+    {
+      "pick": 25,
+      "owner": "Phil",
+      "team": "CIN",
+      "name": "Cincinnati Reds",
+      "actual_pct": 0.555556,
+      "optimal_pct": 0.444444,
+      "value": 0.111112
+    },
+    {
+      "pick": 26,
+      "owner": "Dom",
+      "team": "ATH",
+      "name": "Oakland A's",
+      "actual_pct": 0.514286,
+      "optimal_pct": 0.444444,
+      "value": 0.069842
+    },
+    {
+      "pick": 27,
+      "owner": "Fur",
+      "team": "ATH",
+      "name": "Oakland A's",
+      "actual_pct": 0.514286,
+      "optimal_pct": 0.416667,
+      "value": 0.097619
+    },
+    {
+      "pick": 28,
+      "owner": "Adam B",
+      "team": "STL",
+      "name": "St. Louis Cardinals",
+      "actual_pct": 0.6,
+      "optimal_pct": 0.405405,
+      "value": 0.194595
+    },
+    {
+      "pick": 29,
+      "owner": "Fig",
+      "team": "MIA",
+      "name": "Miami Marlins",
+      "actual_pct": 0.444444,
+      "optimal_pct": 0.388889,
+      "value": 0.055555
+    },
+    {
+      "pick": 30,
+      "owner": "Kev",
+      "team": "MIN",
+      "name": "Minnesota Twins",
+      "actual_pct": 0.444444,
+      "optimal_pct": 0.371429,
+      "value": 0.073015
+    }
+  ],
+  "owner_monthly": {
+    "Jimmy": {
+      "apr": {
+        "w": 56,
+        "l": 36,
+        "rd": 62,
+        "pct": 0.6087
+      },
+      "may": {
+        "w": 10,
+        "l": 4,
+        "rd": 20,
+        "pct": 0.7143
+      }
+    },
+    "Lon": {
+      "apr": {
+        "w": 49,
+        "l": 43,
+        "rd": -30,
+        "pct": 0.5326
+      },
+      "may": {
+        "w": 5,
+        "l": 9,
+        "rd": -20,
+        "pct": 0.3571
+      }
+    },
+    "Ant": {
+      "apr": {
+        "w": 52,
+        "l": 43,
+        "rd": 51,
+        "pct": 0.5474
+      },
+      "may": {
+        "w": 10,
+        "l": 4,
+        "rd": 41,
+        "pct": 0.7143
+      }
+    },
+    "Marz": {
+      "apr": {
+        "w": 44,
+        "l": 49,
+        "rd": -57,
+        "pct": 0.4731
+      },
+      "may": {
+        "w": 8,
+        "l": 5,
+        "rd": 23,
+        "pct": 0.6154
+      }
+    },
+    "Phil": {
+      "apr": {
+        "w": 49,
+        "l": 45,
+        "rd": -22,
+        "pct": 0.5213
+      },
+      "may": {
+        "w": 2,
+        "l": 13,
+        "rd": -30,
+        "pct": 0.1333
+      }
+    },
+    "Dom": {
+      "apr": {
+        "w": 43,
+        "l": 50,
+        "rd": -51,
+        "pct": 0.4624
+      },
+      "may": {
+        "w": 8,
+        "l": 6,
+        "rd": 3,
+        "pct": 0.5714
+      }
+    },
+    "Fur": {
+      "apr": {
+        "w": 51,
+        "l": 42,
+        "rd": 38,
+        "pct": 0.5484
+      },
+      "may": {
+        "w": 7,
+        "l": 6,
+        "rd": -16,
+        "pct": 0.5385
+      }
+    },
+    "Adam B": {
+      "apr": {
+        "w": 55,
+        "l": 39,
+        "rd": 51,
+        "pct": 0.5851
+      },
+      "may": {
+        "w": 8,
+        "l": 6,
+        "rd": -6,
+        "pct": 0.5714
+      }
+    },
+    "Fig": {
+      "apr": {
+        "w": 43,
+        "l": 49,
+        "rd": 23,
+        "pct": 0.4674
+      },
+      "may": {
+        "w": 6,
+        "l": 8,
+        "rd": 4,
+        "pct": 0.4286
+      }
+    },
+    "Kev": {
+      "apr": {
+        "w": 42,
+        "l": 54,
+        "rd": -12,
+        "pct": 0.4375
+      },
+      "may": {
+        "w": 7,
+        "l": 7,
+        "rd": -2,
+        "pct": 0.5
+      }
+    }
+  },
+  "monthly_by_team": {
+    "CIN": {
+      "apr": {
+        "w": 20,
+        "l": 11,
+        "rd": -3,
+        "pct": 0.6452
+      },
+      "may": {
+        "w": 0,
+        "l": 5,
+        "rd": -21,
+        "pct": 0.0
+      }
+    },
+    "CHC": {
+      "apr": {
+        "w": 19,
+        "l": 12,
+        "rd": 35,
+        "pct": 0.6129
+      },
+      "may": {
+        "w": 5,
+        "l": 0,
+        "rd": 9,
+        "pct": 1.0
+      }
+    },
+    "NYM": {
+      "apr": {
+        "w": 10,
+        "l": 21,
+        "rd": -35,
+        "pct": 0.3226
+      },
+      "may": {
+        "w": 3,
+        "l": 1,
+        "rd": 6,
+        "pct": 0.75
+      }
+    },
+    "TBR": {
+      "apr": {
+        "w": 18,
+        "l": 12,
+        "rd": -1,
+        "pct": 0.6
+      },
+      "may": {
+        "w": 5,
+        "l": 0,
+        "rd": 13,
+        "pct": 1.0
+      }
+    },
+    "KCR": {
+      "apr": {
+        "w": 12,
+        "l": 19,
+        "rd": -22,
+        "pct": 0.3871
+      },
+      "may": {
+        "w": 5,
+        "l": 0,
+        "rd": 11,
+        "pct": 1.0
+      }
+    },
+    "LAD": {
+      "apr": {
+        "w": 20,
+        "l": 11,
+        "rd": 66,
+        "pct": 0.6452
+      },
+      "may": {
+        "w": 2,
+        "l": 3,
+        "rd": 1,
+        "pct": 0.4
+      }
+    },
+    "TOR": {
+      "apr": {
+        "w": 14,
+        "l": 17,
+        "rd": -24,
+        "pct": 0.4516
+      },
+      "may": {
+        "w": 2,
+        "l": 3,
+        "rd": 5,
+        "pct": 0.4
+      }
+    },
+    "DET": {
+      "apr": {
+        "w": 16,
+        "l": 16,
+        "rd": 9,
+        "pct": 0.5
+      },
+      "may": {
+        "w": 2,
+        "l": 3,
+        "rd": 1,
+        "pct": 0.4
+      }
+    },
+    "PHI": {
+      "apr": {
+        "w": 12,
+        "l": 19,
+        "rd": -45,
+        "pct": 0.3871
+      },
+      "may": {
+        "w": 4,
+        "l": 1,
+        "rd": 11,
+        "pct": 0.8
+      }
+    },
+    "MIA": {
+      "apr": {
+        "w": 15,
+        "l": 16,
+        "rd": 1,
+        "pct": 0.4839
+      },
+      "may": {
+        "w": 1,
+        "l": 4,
+        "rd": -5,
+        "pct": 0.2
+      }
+    },
+    "SFG": {
+      "apr": {
+        "w": 13,
+        "l": 18,
+        "rd": -26,
+        "pct": 0.4194
+      },
+      "may": {
+        "w": 1,
+        "l": 4,
+        "rd": -4,
+        "pct": 0.2
+      }
+    },
+    "CLE": {
+      "apr": {
+        "w": 16,
+        "l": 16,
+        "rd": -8,
+        "pct": 0.5
+      },
+      "may": {
+        "w": 2,
+        "l": 3,
+        "rd": -1,
+        "pct": 0.4
+      }
+    },
+    "SDP": {
+      "apr": {
+        "w": 19,
+        "l": 11,
+        "rd": 8,
+        "pct": 0.6333
+      },
+      "may": {
+        "w": 2,
+        "l": 3,
+        "rd": -5,
+        "pct": 0.4
+      }
+    },
+    "ARI": {
+      "apr": {
+        "w": 16,
+        "l": 14,
+        "rd": -24,
+        "pct": 0.5333
+      },
+      "may": {
+        "w": 1,
+        "l": 3,
+        "rd": 2,
+        "pct": 0.25
+      }
+    },
+    "NYY": {
+      "apr": {
+        "w": 20,
+        "l": 11,
+        "rd": 47,
+        "pct": 0.6452
+      },
+      "may": {
+        "w": 5,
+        "l": 0,
+        "rd": 32,
+        "pct": 1.0
+      }
+    },
+    "BOS": {
+      "apr": {
+        "w": 12,
+        "l": 19,
+        "rd": -16,
+        "pct": 0.3871
+      },
+      "may": {
+        "w": 3,
+        "l": 2,
+        "rd": 5,
+        "pct": 0.6
+      }
+    },
+    "ATH": {
+      "apr": {
+        "w": 17,
+        "l": 14,
+        "rd": -5,
+        "pct": 0.5484
+      },
+      "may": {
+        "w": 1,
+        "l": 3,
+        "rd": -13,
+        "pct": 0.25
+      }
+    },
+    "ATL": {
+      "apr": {
+        "w": 22,
+        "l": 10,
+        "rd": 66,
+        "pct": 0.6875
+      },
+      "may": {
+        "w": 4,
+        "l": 1,
+        "rd": 15,
+        "pct": 0.8
+      }
+    },
+    "HOU": {
+      "apr": {
+        "w": 12,
+        "l": 20,
+        "rd": -26,
+        "pct": 0.375
+      },
+      "may": {
+        "w": 3,
+        "l": 2,
+        "rd": -1,
+        "pct": 0.6
+      }
+    },
+    "TEX": {
+      "apr": {
+        "w": 15,
+        "l": 16,
+        "rd": 8,
+        "pct": 0.4839
+      },
+      "may": {
+        "w": 1,
+        "l": 3,
+        "rd": -12,
+        "pct": 0.25
+      }
+    },
+    "STL": {
+      "apr": {
+        "w": 18,
+        "l": 13,
+        "rd": -3,
+        "pct": 0.5806
+      },
+      "may": {
+        "w": 3,
+        "l": 1,
+        "rd": 6,
+        "pct": 0.75
+      }
+    },
+    "BAL": {
+      "apr": {
+        "w": 15,
+        "l": 16,
+        "rd": -12,
+        "pct": 0.4839
+      },
+      "may": {
+        "w": 1,
+        "l": 4,
+        "rd": -27,
+        "pct": 0.2
+      }
+    },
+    "SEA": {
+      "apr": {
+        "w": 16,
+        "l": 16,
+        "rd": 7,
+        "pct": 0.5
+      },
+      "may": {
+        "w": 1,
+        "l": 4,
+        "rd": -5,
+        "pct": 0.2
+      }
+    },
+    "PIT": {
+      "apr": {
+        "w": 16,
+        "l": 16,
+        "rd": 12,
+        "pct": 0.5
+      },
+      "may": {
+        "w": 3,
+        "l": 1,
+        "rd": 10,
+        "pct": 0.75
+      }
+    },
+    "MIL": {
+      "apr": {
+        "w": 16,
+        "l": 14,
+        "rd": 38,
+        "pct": 0.5333
+      },
+      "may": {
+        "w": 2,
+        "l": 2,
+        "rd": 4,
+        "pct": 0.5
+      }
+    },
+    "MIN": {
+      "apr": {
+        "w": 14,
+        "l": 18,
+        "rd": 5,
+        "pct": 0.4375
+      },
+      "may": {
+        "w": 2,
+        "l": 2,
+        "rd": -2,
+        "pct": 0.5
+      }
+    }
+  },
+  "month_order": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "month_labels": {
+    "apr": "March/April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "Sept/Oct"
+  },
+  "snapshots_frozen": [
+    "apr"
+  ],
+  "draft": [
+    {
+      "pick": 1,
+      "owner": "Jimmy",
+      "team": "LAD",
+      "name": "Los Angeles Dodgers",
+      "w2025": 93,
+      "proj_w": 96
+    },
+    {
+      "pick": 2,
+      "owner": "Lon",
+      "team": "NYM",
+      "name": "New York Mets",
+      "w2025": 83,
+      "proj_w": 88
+    },
+    {
+      "pick": 3,
+      "owner": "Ant",
+      "team": "NYY",
+      "name": "New York Yankees",
+      "w2025": 94,
+      "proj_w": 87
+    },
+    {
+      "pick": 4,
+      "owner": "Marz",
+      "team": "PHI",
+      "name": "Philadelphia Phillies",
+      "w2025": 96,
+      "proj_w": 87
+    },
+    {
+      "pick": 5,
+      "owner": "Phil",
+      "team": "SEA",
+      "name": "Seattle Mariners",
+      "w2025": 90,
+      "proj_w": 88
+    },
+    {
+      "pick": 6,
+      "owner": "Dom",
+      "team": "TOR",
+      "name": "Toronto Blue Jays",
+      "w2025": 94,
+      "proj_w": 86
+    },
+    {
+      "pick": 7,
+      "owner": "Fur",
+      "team": "CHC",
+      "name": "Chicago Cubs",
+      "w2025": 92,
+      "proj_w": 84
+    },
+    {
+      "pick": 8,
+      "owner": "Adam B",
+      "team": "ATL",
+      "name": "Atlanta Braves",
+      "w2025": 76,
+      "proj_w": 88
+    },
+    {
+      "pick": 9,
+      "owner": "Fig",
+      "team": "BOS",
+      "name": "Boston Red Sox",
+      "w2025": 89,
+      "proj_w": 85
+    },
+    {
+      "pick": 10,
+      "owner": "Kev",
+      "team": "DET",
+      "name": "Detroit Tigers",
+      "w2025": 87,
+      "proj_w": 86
+    },
+    {
+      "pick": 11,
+      "owner": "Kev",
+      "team": "HOU",
+      "name": "Houston Astros",
+      "w2025": 87,
+      "proj_w": 81
+    },
+    {
+      "pick": 12,
+      "owner": "Fig",
+      "team": "MIL",
+      "name": "Milwaukee Brewers",
+      "w2025": 97,
+      "proj_w": 81
+    },
+    {
+      "pick": 13,
+      "owner": "Adam B",
+      "team": "BAL",
+      "name": "Baltimore Orioles",
+      "w2025": 75,
+      "proj_w": 84
+    },
+    {
+      "pick": 14,
+      "owner": "Fur",
+      "team": "TEX",
+      "name": "Texas Rangers",
+      "w2025": 81,
+      "proj_w": 81
+    },
+    {
+      "pick": 15,
+      "owner": "Dom",
+      "team": "KCR",
+      "name": "Kansas City Royals",
+      "w2025": 82,
+      "proj_w": 81
+    },
+    {
+      "pick": 16,
+      "owner": "Phil",
+      "team": "SFG",
+      "name": "San Francisco Giants",
+      "w2025": 81,
+      "proj_w": 82
+    },
+    {
+      "pick": 17,
+      "owner": "Marz",
+      "team": "ARI",
+      "name": "Arizona Diamondbacks",
+      "w2025": 80,
+      "proj_w": 81
+    },
+    {
+      "pick": 18,
+      "owner": "Ant",
+      "team": "CLE",
+      "name": "Cleveland Guardians",
+      "w2025": 88,
+      "proj_w": 76
+    },
+    {
+      "pick": 19,
+      "owner": "Lon",
+      "team": "SDP",
+      "name": "San Diego Padres",
+      "w2025": 90,
+      "proj_w": 79
+    },
+    {
+      "pick": 20,
+      "owner": "Jimmy",
+      "team": "TBR",
+      "name": "Tampa Bay Rays",
+      "w2025": 77,
+      "proj_w": 81
+    },
+    {
+      "pick": 21,
+      "owner": "Jimmy",
+      "team": "STL",
+      "name": "St. Louis Cardinals",
+      "w2025": 78,
+      "proj_w": 75
+    },
+    {
+      "pick": 22,
+      "owner": "Lon",
+      "team": "CIN",
+      "name": "Cincinnati Reds",
+      "w2025": 83,
+      "proj_w": 78
+    },
+    {
+      "pick": 23,
+      "owner": "Ant",
+      "team": "PIT",
+      "name": "Pittsburgh Pirates",
+      "w2025": 71,
+      "proj_w": 82
+    },
+    {
+      "pick": 24,
+      "owner": "Marz",
+      "team": "PIT",
+      "name": "Pittsburgh Pirates",
+      "w2025": 71,
+      "proj_w": 82
+    },
+    {
+      "pick": 25,
+      "owner": "Phil",
+      "team": "CIN",
+      "name": "Cincinnati Reds",
+      "w2025": 83,
+      "proj_w": 78
+    },
+    {
+      "pick": 26,
+      "owner": "Dom",
+      "team": "ATH",
+      "name": "Oakland A's",
+      "w2025": 76,
+      "proj_w": 80
+    },
+    {
+      "pick": 27,
+      "owner": "Fur",
+      "team": "ATH",
+      "name": "Oakland A's",
+      "w2025": 76,
+      "proj_w": 80
+    },
+    {
+      "pick": 28,
+      "owner": "Adam B",
+      "team": "STL",
+      "name": "St. Louis Cardinals",
+      "w2025": 78,
+      "proj_w": 75
+    },
+    {
+      "pick": 29,
+      "owner": "Fig",
+      "team": "MIA",
+      "name": "Miami Marlins",
+      "w2025": 79,
+      "proj_w": 75
+    },
+    {
+      "pick": 30,
+      "owner": "Kev",
+      "team": "MIN",
+      "name": "Minnesota Twins",
+      "w2025": 70,
+      "proj_w": 79
+    }
+  ]
+}
