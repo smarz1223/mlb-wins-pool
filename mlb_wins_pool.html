@@ -166,7 +166,7 @@ nav a.active{color:#fff;border-bottom-color:var(--gold2)}
 <div id="pg-monthly" class="page">
   <div class="eyebrow">Month by Month</div>
   <div class="ptitle">Monthly Results</div>
-  <div class="psub">Win % by owner by month · March/April combined · Sept/Oct combined</div>
+  <div class="psub">Win % by owner by month</div>
   <div class="card mb2">
     <div class="ctitle">Win % Trend by Month — click legend to highlight</div>
     <div class="leg" id="mo-leg"></div>
@@ -347,9 +347,9 @@ function applyHeat(cells,higher){
     c.classList.add('heat-cell');
   });
 }
-function heatCol(tid,ci,higher){
+function heatCol(tid,ci,higher,inclNp){
   var tbl=document.getElementById(tid); if(!tbl) return;
-  var cells=Array.from(tbl.querySelectorAll('tbody tr:not(.np-row)')).map(function(r){return r.cells[ci];}).filter(Boolean);
+  var sel=inclNp?'tbody tr':'tbody tr:not(.np-row)';var cells=Array.from(tbl.querySelectorAll(sel)).map(function(r){return r.cells[ci];}).filter(Boolean);
   cells.forEach(function(c){if(c.dataset.hv===undefined||c.dataset.hv==='') c.dataset.hv=c.textContent.replace(/[^0-9.\-]/g,'');});
   applyHeat(cells,higher);
 }
@@ -444,8 +444,12 @@ function buildMonthlyStTables(){
       var d=D.owner_monthly[r.owner]&&D.owner_monthly[r.owner][p];
       return{owner:r.owner,teams:r.teams,w:d?d.w:0,l:d?d.l:0,rd:d?d.rd:0,pct:d?d.pct:0,has:!!d};
     }).filter(function(r){return r.has;}).sort(function(a,b){return b.pct-a.pct||b.rd-a.rd;});
+    rows.forEach(function(r,i){
+      r.rank=i+1;
+      r.gb=i===0?0:Math.round(((rows[0].w-rows[0].l)-(r.w-r.l))/2*10)/10;
+    });
     var tid='mo-st-'+p;
-    html+='<div class="section-hd">'+label+(isLive?'<span class="live-badge">● Live</span>':'')+'</div>';
+    html+='<div class="section-hd">'+label+(isLive?'<span class="live-badge">● Live</span>':'')+' </div>';
     html+='<div class="card mb2"><div style="overflow-x:auto"><table class="dt" id="'+tid+'">';
     html+='<thead><tr>';
     html+='<th data-col="rank" data-asc="1" onclick="sortTbl(\''+tid+'\',this)">#&nbsp;Owner</th>';
@@ -454,22 +458,27 @@ function buildMonthlyStTables(){
     html+='<th data-col="l" onclick="sortTbl(\''+tid+'\',this)">L</th>';
     html+='<th data-col="pct" onclick="sortTbl(\''+tid+'\',this)">Win %</th>';
     html+='<th data-col="rd" onclick="sortTbl(\''+tid+'\',this)">Run Diff</th>';
+    html+='<th data-col="gb" onclick="sortTbl(\''+tid+'\',this)">GB</th>';
+    html+='<th class="hm" style="cursor:default;min-width:90px"></th>';
+    html+='<th class="hm" style="cursor:default;min-width:90px"></th>';
     html+='</tr></thead><tbody>';
-    rows.forEach(function(r,i){
-      var rank=i+1;
-      var rc=rank===1?'r1':rank===2?'r2':rank===3?'r3':'rn';
-      // For team pct in monthly tables, calc from monthly_by_team for this period
+    rows.forEach(function(r){
+      var rc=r.rank===1?'r1':r.rank===2?'r2':r.rank===3?'r3':'rn';
       var teamChips=r.teams.map(function(t){
         var td=D.monthly_by_team[t];
         var tp=td&&td[p]?td[p].pct:null;
         return teamPctChip(t,tp,r.owner);
       }).join(' ');
-      html+='<tr data-rank="'+rank+'" data-w="'+r.w+'" data-l="'+r.l+'" data-pct="'+r.pct+'" data-rd="'+r.rd+'">'+
-        '<td><span class="rb '+rc+'">'+rank+'</span><span class="odot" style="background:'+oc(r.owner)+'"></span>'+r.owner+'</td>'+
+      var gbStr=r.gb===0?'—':r.gb.toFixed(1);
+      html+='<tr data-rank="'+r.rank+'" data-w="'+r.w+'" data-l="'+r.l+'" data-pct="'+r.pct+'" data-rd="'+r.rd+'" data-gb="'+r.gb+'">'+
+        '<td><span class="rb '+rc+'">'+r.rank+'</span><span class="odot" style="background:'+oc(r.owner)+'"></span>'+r.owner+'</td>'+
         '<td class="tal">'+teamChips+'</td>'+
         '<td class="wt">'+r.w+'</td><td class="lt">'+r.l+'</td>'+
         '<td data-hv="'+r.pct+'">'+pct(r.pct)+'</td>'+
         '<td class="'+(r.rd>=0?'wt':'lt')+'">'+frd(r.rd)+'</td>'+
+        '<td>'+gbStr+'</td>'+
+        '<td class="hm"></td>'+
+        '<td class="hm"></td>'+
         '</tr>';
     });
     html+='</tbody></table></div></div>';
@@ -490,26 +499,25 @@ function ownerHeaderCols(){
 function buildBestPerforming(){
   document.getElementById('bpt-thead').innerHTML=
     '<tr><th>Rank</th><th class="tal">Full Name</th>'+ownerHeaderCols()+'</tr>';
-
-  // All 30 drafted teams + 4 not-picked, sorted by pct desc
-  var allRows=D.team_rows.slice().sort(function(a,b){return b.pct-a.pct;});
-
-  // Build not-picked pct lookup
-  var npMap={};
-  (D.not_picked||[]).forEach(function(r){npMap[r.team]=r.pct;});
-
-  var allPctCells=[];
+  var drafted=D.team_rows.slice().map(function(r){return{name:r.name,pct:r.pct,owner:r.owner,np:false};});
+  var notPicked=(D.not_picked||[]).map(function(r){return{name:r.name,pct:r.pct,owner:null,np:true};});
+  var allRows=drafted.concat(notPicked).sort(function(a,b){return b.pct-a.pct;});
   var rows=allRows.map(function(r,i){
-    var ownerCols=OWNERS_ORDER.map(function(o){
-      if(r.owner!==o) return '<td></td>';
-      return '<td style="text-align:center" data-hv="'+r.pct+'">'+pct(r.pct)+'</td>';
-    }).join('');
-    return '<tr><td>'+(i+1)+'</td><td class="tal">'+r.name+'</td>'+ownerCols+'<td></td></tr>';
+    var ownerCols,npCol;
+    if(r.np){
+      ownerCols=OWNERS_ORDER.map(function(){return '<td></td>';}).join('');
+      npCol='<td style="text-align:center" data-hv="'+r.pct+'">'+pct(r.pct)+'</td>';
+    } else {
+      ownerCols=OWNERS_ORDER.map(function(o){
+        if(r.owner!==o) return '<td></td>';
+        return '<td style="text-align:center" data-hv="'+r.pct+'">'+pct(r.pct)+'</td>';
+      }).join('');
+      npCol='<td></td>';
+    }
+    var ns=r.np?' style="color:var(--gray);font-style:italic;font-weight:400"':'';
+    return '<tr><td>'+(i+1)+'</td><td class="tal"'+ns+'>'+r.name+'</td>'+ownerCols+npCol+'</tr>';
   }).join('');
-
   document.getElementById('bpt-tbody').innerHTML=rows;
-
-  // Apply heat across all owner pct cells
   var cells=[];
   document.querySelectorAll('#bpt-tbl tbody td[data-hv]').forEach(function(c){cells.push(c);});
   applyHeat(cells,true);
@@ -519,11 +527,9 @@ function buildDraftOrderPerf(){
   document.getElementById('dop-thead').innerHTML=
     '<tr><th>Pick</th><th class="tal">Team</th>'+ownerHeaderCols()+
     '<th>Draft Value</th><th>Owner</th><th>Value Rank</th></tr>';
-
   var dvSorted=D.draft_value.slice().sort(function(a,b){return b.value-a.value;});
   var vRankMap={};
   dvSorted.forEach(function(d,i){vRankMap[d.pick]=i+1;});
-
   var rows=D.draft.map(function(pick){
     var tr=D.team_rows.find(function(r){return r.pick===pick.pick;});
     var dv=D.draft_value.find(function(r){return r.pick===pick.pick;});
@@ -545,8 +551,19 @@ function buildDraftOrderPerf(){
       '<td>'+vRank+'</td>'+
       '</tr>';
   }).join('');
-
-  document.getElementById('dop-tbody').innerHTML=rows;
+  var npRows=(D.not_picked||[]).map(function(r){
+    var empCols=OWNERS_ORDER.map(function(){return '<td></td>';}).join('');
+    return '<tr class="np-row" data-pick="99">'+
+      '<td style="color:var(--gray2)">—</td>'+
+      '<td class="tal"><span class="chip" style="background:#888">'+r.team+'</span></td>'+
+      empCols+
+      '<td style="text-align:center;font-style:italic;color:var(--gray)" data-hv="'+r.pct+'">'+pct(r.pct)+'</td>'+
+      '<td style="color:var(--gray)">—</td>'+
+      '<td style="color:var(--gray);font-style:italic">Not Picked</td>'+
+      '<td style="color:var(--gray)">—</td>'+
+      '</tr>';
+  }).join('');
+  document.getElementById('dop-tbody').innerHTML=rows+npRows;
   var cells=[];
   document.querySelectorAll('#dop-tbl tbody td[data-hv]').forEach(function(c){cells.push(c);});
   applyHeat(cells,true);
@@ -590,9 +607,8 @@ function buildMonthlyChart(){
 function toggleLeg(owner){activeLeg=(activeLeg===owner)?null:owner;buildMonthlyChart();}
 
 function buildMonthlyTeamTable(){
-  var periods=D.month_order.filter(function(p){
-    return D.draft.some(function(pk){var td=D.monthly_by_team[pk.team];return td&&td[p];});
-  });
+  // Always show all 6 periods regardless of data availability
+  var periods=D.month_order;
   document.getElementById('mo-team-thead').innerHTML=
     '<tr><th class="tal">Owner / Team</th>'+
     periods.map(function(p){return '<th>'+D.month_labels[p]+'</th>';}).join('')+'</tr>';
@@ -750,9 +766,9 @@ function renderDraft(){
   }).join('');
 
   document.getElementById('dr-tbody').innerHTML=draftedRows+npRows;
-  heatCol('dr-tbl',4,true);
-  heatCol('dr-tbl',5,true);
-  heatCol('dr-tbl',6,true);
+  heatCol('dr-tbl',4,true,true);
+  heatCol('dr-tbl',5,true,true);
+  heatCol('dr-tbl',6,true,true);
 }
 
 loadData();
