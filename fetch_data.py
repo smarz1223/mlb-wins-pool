@@ -55,6 +55,13 @@ DRAFT = [
     {"pick": 30, "owner": "Kev",    "team": "MIN", "name": "Minnesota Twins",         "w2025": 70,  "proj_w": 79},
 ]
 
+NOT_PICKED = [
+    {"team": "CHW", "name": "Chicago White Sox",    "w2025": 41,  "proj_w": 71},
+    {"team": "COL", "name": "Colorado Rockies",     "w2025": 61,  "proj_w": 62},
+    {"team": "LAA", "name": "Los Angeles Angels",   "w2025": 69,  "proj_w": 66},
+    {"team": "WSN", "name": "Washington Nationals", "w2025": 72,  "proj_w": 67},
+]
+
 # MLB Stats API team ID map
 TEAM_ID_MAP = {
     "LAD": 119, "NYM": 121, "NYY": 147, "PHI": 143, "SEA": 136,
@@ -499,12 +506,26 @@ def main():
     team_rows = build_team_rows(live_teams, projections)
     draft_value = calc_draft_value(live_teams)
 
+    # Not-picked team rows
+    not_picked_rows = []
+    for np in NOT_PICKED:
+        t = np["team"]
+        live = live_teams.get(t, {"w": 0, "l": 0, "rd": 0, "pct": 0})
+        proj = projections.get(t, {"sim_w": 0, "sim_pct": 0})
+        not_picked_rows.append({
+            "team": t, "name": np["name"],
+            "w2025": np["w2025"], "proj_w": np["proj_w"],
+            "w": live["w"], "l": live["l"], "rd": live["rd"], "pct": live["pct"],
+            "sim_pct": proj["sim_pct"],
+        })
+
     # Assemble output
     output = {
         "updated": now_str,
         "season": 2026,
         "standings": standings,
         "team_rows": team_rows,
+        "not_picked": not_picked_rows,
         "draft_value": draft_value,
         "owner_monthly": owner_monthly,
         "monthly_by_team": {
@@ -515,6 +536,7 @@ def main():
         "month_labels": MONTH_LABELS,
         "snapshots_frozen": list(snapshots.keys()),
         "draft": DRAFT,
+        "not_picked_config": NOT_PICKED,
     }
 
     with open(DATA_FILE, "w") as f:
