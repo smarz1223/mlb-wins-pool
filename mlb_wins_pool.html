@@ -350,7 +350,7 @@ function applyHeat(cells,higher){
 function heatCol(tid,ci,higher,inclNp){
   var tbl=document.getElementById(tid); if(!tbl) return;
   var sel=inclNp?'tbody tr':'tbody tr:not(.np-row)';var cells=Array.from(tbl.querySelectorAll(sel)).map(function(r){return r.cells[ci];}).filter(Boolean);
-  cells.forEach(function(c){if(c.dataset.hv===undefined||c.dataset.hv==='') c.dataset.hv=c.textContent.replace(/[^0-9.\-]/g,'');});
+
   applyHeat(cells,higher);
 }
 
