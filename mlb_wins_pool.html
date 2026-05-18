@@ -419,7 +419,7 @@ function renderStandings(){
     }).filter(function(r){return r.has;}).sort(function(a,b){return b.pct-a.pct||b.rd-a.rd;});
     if(!rows.length) return;
     var leader=rows[0];
-    var liveTag=isLive?'<span style="display:inline-block;font-family:'Roboto Condensed',sans-serif;font-size:9px;letter-spacing:1px;text-transform:uppercase;background:rgba(200,16,46,.1);border:1px solid rgba(200,16,46,.3);color:var(--red);padding:1px 5px;border-radius:3px;font-weight:700;margin-left:5px;vertical-align:middle">Live</span>':'';
+    var liveTag=isLive?'<span style="display:inline-block;font-family:Roboto Condensed,sans-serif;font-size:9px;letter-spacing:1px;text-transform:uppercase;background:rgba(200,16,46,.1);border:1px solid rgba(200,16,46,.3);color:var(--red);padding:1px 5px;border-radius:3px;font-weight:700;margin-left:5px;vertical-align:middle">Live</span>':'';
     cards.push('<div class="sc"><div class="slabel">'+label+liveTag+'</div><div class="sval">'+leader.owner+'</div><div class="ssub">'+pct(leader.pct)+' Win %</div></div>');
   });
 
