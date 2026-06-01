@@ -488,12 +488,22 @@ def main():
     period_to_snap = should_snapshot_today(today, snapshots)
     if period_to_snap:
         print(f"  Snapshotting completed period: {period_to_snap}")
+        # Get all prior completed periods so we can store period-ONLY deltas
+        prior_periods = get_completed_periods(today)  # excludes the period being snapped
         snap = {}
         for abbr, data in live_teams.items():
-            snap[abbr] = {"w": data["w"], "l": data["l"], "rd": data["rd"]}
+            # Subtract all prior frozen periods to get this period only
+            prior_w  = sum(snapshots.get(p, {}).get(abbr, {}).get("w",  0) for p in prior_periods)
+            prior_l  = sum(snapshots.get(p, {}).get(abbr, {}).get("l",  0) for p in prior_periods)
+            prior_rd = sum(snapshots.get(p, {}).get(abbr, {}).get("rd", 0) for p in prior_periods)
+            snap[abbr] = {
+                "w":  max(0, data["w"]  - prior_w),
+                "l":  max(0, data["l"]  - prior_l),
+                "rd": data["rd"] - prior_rd,
+            }
         snapshots[period_to_snap] = snap
         save_snapshots(snapshots)
-        print(f"  Snapshot saved for {period_to_snap}")
+        print(f"  Snapshot saved for {period_to_snap} (period-only deltas)")
 
     print("Fetching projections...")
     projections = fetch_projections()
