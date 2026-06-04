@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03 12:29:19",
+  "updated": "2026-06-04 10:53:42",
   "season": 2026,
   "standings": [
     {
@@ -9,13 +9,13 @@
         "TBR",
         "STL"
       ],
-      "w": 106,
-      "l": 72,
-      "rd": 123,
-      "pct": 0.595506,
+      "w": 108,
+      "l": 73,
+      "rd": 127,
+      "pct": 0.596685,
       "proj_pct": 0.556667,
       "proj_wins": 270.5,
-      "g_rem": 308,
+      "g_rem": 305,
       "rank": 1,
       "gb": 0,
       "proj_wins_behind": 0.0
@@ -27,15 +27,15 @@
         "CLE",
         "PIT"
       ],
-      "w": 104,
-      "l": 79,
-      "rd": 134,
-      "pct": 0.568306,
+      "w": 105,
+      "l": 81,
+      "rd": 132,
+      "pct": 0.564516,
       "proj_pct": 0.541333,
       "proj_wins": 263.1,
-      "g_rem": 303,
+      "g_rem": 300,
       "rank": 2,
-      "gb": 4.5,
+      "gb": 5.5,
       "proj_wins_behind": 7.4
     },
     {
@@ -45,13 +45,13 @@
         "BAL",
         "STL"
       ],
-      "w": 101,
-      "l": 80,
-      "rd": 60,
-      "pct": 0.558011,
+      "w": 103,
+      "l": 81,
+      "rd": 59,
+      "pct": 0.559783,
       "proj_pct": 0.521,
       "proj_wins": 253.2,
-      "g_rem": 305,
+      "g_rem": 302,
       "rank": 3,
       "gb": 6.5,
       "proj_wins_behind": 17.3
@@ -63,15 +63,15 @@
         "ARI",
         "PIT"
       ],
-      "w": 96,
-      "l": 85,
-      "rd": 20,
-      "pct": 0.530387,
+      "w": 97,
+      "l": 87,
+      "rd": 12,
+      "pct": 0.527174,
       "proj_pct": 0.520333,
       "proj_wins": 252.9,
-      "g_rem": 305,
+      "g_rem": 302,
       "rank": 4,
-      "gb": 11.5,
+      "gb": 12.5,
       "proj_wins_behind": 17.6
     },
     {
@@ -81,13 +81,13 @@
         "MIL",
         "MIA"
       ],
-      "w": 90,
-      "l": 89,
-      "rd": 65,
-      "pct": 0.502793,
+      "w": 92,
+      "l": 90,
+      "rd": 74,
+      "pct": 0.505495,
       "proj_pct": 0.499,
       "proj_wins": 242.5,
-      "g_rem": 307,
+      "g_rem": 304,
       "rank": 5,
       "gb": 16.5,
       "proj_wins_behind": 28.0
@@ -99,15 +99,15 @@
         "TEX",
         "ATH"
       ],
-      "w": 91,
-      "l": 91,
-      "rd": -4,
-      "pct": 0.5,
+      "w": 92,
+      "l": 93,
+      "rd": -6,
+      "pct": 0.497297,
       "proj_pct": 0.517667,
       "proj_wins": 251.6,
-      "g_rem": 304,
+      "g_rem": 301,
       "rank": 6,
-      "gb": 17.0,
+      "gb": 18.0,
       "proj_wins_behind": 18.9
     },
     {
@@ -117,15 +117,15 @@
         "SDP",
         "CIN"
       ],
-      "w": 89,
-      "l": 91,
-      "rd": -64,
-      "pct": 0.494444,
+      "w": 90,
+      "l": 93,
+      "rd": -62,
+      "pct": 0.491803,
       "proj_pct": 0.487,
       "proj_wins": 236.7,
-      "g_rem": 306,
+      "g_rem": 303,
       "rank": 7,
-      "gb": 18.0,
+      "gb": 19.0,
       "proj_wins_behind": 33.8
     },
     {
@@ -135,15 +135,15 @@
         "SFG",
         "CIN"
       ],
-      "w": 87,
-      "l": 96,
-      "rd": -69,
-      "pct": 0.47541,
+      "w": 88,
+      "l": 98,
+      "rd": -77,
+      "pct": 0.473118,
       "proj_pct": 0.492,
       "proj_wins": 239.1,
-      "g_rem": 303,
+      "g_rem": 300,
       "rank": 8,
-      "gb": 21.5,
+      "gb": 22.5,
       "proj_wins_behind": 31.4
     },
     {
@@ -153,13 +153,13 @@
         "KCR",
         "ATH"
       ],
-      "w": 81,
-      "l": 101,
+      "w": 83,
+      "l": 102,
       "rd": -94,
-      "pct": 0.445055,
+      "pct": 0.448649,
       "proj_pct": 0.486333,
       "proj_wins": 236.4,
-      "g_rem": 304,
+      "g_rem": 301,
       "rank": 9,
       "gb": 27.0,
       "proj_wins_behind": 34.1
@@ -171,13 +171,13 @@
         "HOU",
         "MIN"
       ],
-      "w": 80,
-      "l": 106,
-      "rd": -83,
-      "pct": 0.430108,
+      "w": 82,
+      "l": 107,
+      "rd": -84,
+      "pct": 0.433862,
       "proj_pct": 0.467333,
       "proj_wins": 227.1,
-      "g_rem": 300,
+      "g_rem": 297,
       "rank": 10,
       "gb": 30.0,
       "proj_wins_behind": 43.4
@@ -191,15 +191,15 @@
       "name": "Los Angeles Dodgers",
       "w2025": 93,
       "proj_w": 96,
-      "w": 39,
+      "w": 40,
       "l": 22,
-      "rd": 127,
-      "pct": 0.639344,
+      "rd": 134,
+      "pct": 0.645161,
       "sim_w": 103.3,
       "sim_pct": 0.638,
       "playoff_pct": 100.0,
       "ws_pct": 19.6,
-      "proj_change": 0.001344
+      "proj_change": 0.007161
     },
     {
       "pick": 2,
@@ -208,15 +208,15 @@
       "name": "New York Mets",
       "w2025": 83,
       "proj_w": 88,
-      "w": 26,
+      "w": 27,
       "l": 35,
-      "rd": -19,
-      "pct": 0.42623,
+      "rd": -13,
+      "pct": 0.435484,
       "sim_w": 78.6,
       "sim_pct": 0.485,
       "playoff_pct": 15.1,
       "ws_pct": 0.6,
-      "proj_change": -0.05877
+      "proj_change": -0.049516
     },
     {
       "pick": 3,
@@ -226,14 +226,14 @@
       "w2025": 94,
       "proj_w": 87,
       "w": 36,
-      "l": 24,
-      "rd": 93,
-      "pct": 0.6,
+      "l": 25,
+      "rd": 92,
+      "pct": 0.590164,
       "sim_w": 93.5,
       "sim_pct": 0.577,
       "playoff_pct": 98.4,
       "ws_pct": 13.5,
-      "proj_change": 0.023
+      "proj_change": 0.013164
     },
     {
       "pick": 4,
@@ -242,15 +242,15 @@
       "name": "Philadelphia Phillies",
       "w2025": 96,
       "proj_w": 87,
-      "w": 31,
+      "w": 32,
       "l": 29,
-      "rd": -25,
-      "pct": 0.516667,
+      "rd": -24,
+      "pct": 0.52459,
       "sim_w": 87.3,
       "sim_pct": 0.539,
       "playoff_pct": 78.2,
       "ws_pct": 5.7,
-      "proj_change": -0.022333
+      "proj_change": -0.01441
     },
     {
       "pick": 5,
@@ -260,14 +260,14 @@
       "w2025": 90,
       "proj_w": 88,
       "w": 33,
-      "l": 29,
-      "rd": 36,
-      "pct": 0.532258,
+      "l": 30,
+      "rd": 30,
+      "pct": 0.52381,
       "sim_w": 90.3,
       "sim_pct": 0.557,
       "playoff_pct": 94.0,
       "ws_pct": 11.9,
-      "proj_change": -0.024742
+      "proj_change": -0.03319
     },
     {
       "pick": 6,
@@ -277,14 +277,14 @@
       "w2025": 94,
       "proj_w": 86,
       "w": 29,
-      "l": 32,
-      "rd": -8,
-      "pct": 0.47541,
+      "l": 33,
+      "rd": -12,
+      "pct": 0.467742,
       "sim_w": 83.7,
       "sim_pct": 0.517,
       "playoff_pct": 59.3,
       "ws_pct": 2.7,
-      "proj_change": -0.04159
+      "proj_change": -0.049258
     },
     {
       "pick": 7,
@@ -294,14 +294,14 @@
       "w2025": 92,
       "proj_w": 84,
       "w": 32,
-      "l": 29,
-      "rd": 18,
-      "pct": 0.52459,
+      "l": 30,
+      "rd": 17,
+      "pct": 0.516129,
       "sim_w": 88.1,
       "sim_pct": 0.544,
       "playoff_pct": 82.2,
       "ws_pct": 4.6,
-      "proj_change": -0.01941
+      "proj_change": -0.027871
     },
     {
       "pick": 8,
@@ -310,15 +310,15 @@
       "name": "Atlanta Braves",
       "w2025": 76,
       "proj_w": 88,
-      "w": 41,
+      "w": 42,
       "l": 20,
-      "rd": 110,
-      "pct": 0.672131,
+      "rd": 114,
+      "pct": 0.677419,
       "sim_w": 95.9,
       "sim_pct": 0.592,
       "playoff_pct": 99.2,
       "ws_pct": 10.3,
-      "proj_change": 0.080131
+      "proj_change": 0.085419
     },
     {
       "pick": 9,
@@ -327,15 +327,15 @@
       "name": "Boston Red Sox",
       "w2025": 89,
       "proj_w": 85,
-      "w": 25,
+      "w": 26,
       "l": 34,
-      "rd": -7,
-      "pct": 0.423729,
+      "rd": 0,
+      "pct": 0.433333,
       "sim_w": 76.6,
       "sim_pct": 0.473,
       "playoff_pct": 10.7,
       "ws_pct": 0.6,
-      "proj_change": -0.049271
+      "proj_change": -0.039667
     },
     {
       "pick": 10,
@@ -344,15 +344,15 @@
       "name": "Detroit Tigers",
       "w2025": 87,
       "proj_w": 86,
-      "w": 24,
+      "w": 25,
       "l": 38,
-      "rd": -30,
-      "pct": 0.387097,
+      "rd": -25,
+      "pct": 0.396825,
       "sim_w": 76.2,
       "sim_pct": 0.47,
       "playoff_pct": 10.8,
       "ws_pct": 0.8,
-      "proj_change": -0.082903
+      "proj_change": -0.073175
     },
     {
       "pick": 11,
@@ -361,15 +361,15 @@
       "name": "Houston Astros",
       "w2025": 87,
       "proj_w": 81,
-      "w": 27,
+      "w": 28,
       "l": 35,
-      "rd": -37,
-      "pct": 0.435484,
+      "rd": -35,
+      "pct": 0.444444,
       "sim_w": 75.3,
       "sim_pct": 0.465,
       "playoff_pct": 6.5,
       "ws_pct": 0.1,
-      "proj_change": -0.029516
+      "proj_change": -0.020556
     },
     {
       "pick": 12,
@@ -379,14 +379,14 @@
       "w2025": 97,
       "proj_w": 81,
       "w": 37,
-      "l": 21,
-      "rd": 93,
-      "pct": 0.637931,
+      "l": 22,
+      "rd": 92,
+      "pct": 0.627119,
       "sim_w": 91.6,
       "sim_pct": 0.565,
       "playoff_pct": 94.3,
       "ws_pct": 5.5,
-      "proj_change": 0.072931
+      "proj_change": 0.062119
     },
     {
       "pick": 13,
@@ -396,14 +396,14 @@
       "w2025": 75,
       "proj_w": 84,
       "w": 29,
-      "l": 32,
-      "rd": -36,
-      "pct": 0.47541,
+      "l": 33,
+      "rd": -43,
+      "pct": 0.467742,
       "sim_w": 80.6,
       "sim_pct": 0.498,
       "playoff_pct": 33.7,
       "ws_pct": 1.3,
-      "proj_change": -0.02259
+      "proj_change": -0.030258
     },
     {
       "pick": 14,
@@ -413,14 +413,14 @@
       "w2025": 81,
       "proj_w": 81,
       "w": 30,
-      "l": 31,
-      "rd": 11,
-      "pct": 0.491803,
+      "l": 32,
+      "rd": 9,
+      "pct": 0.483871,
       "sim_w": 84.0,
       "sim_pct": 0.519,
       "playoff_pct": 61.3,
       "ws_pct": 3.7,
-      "proj_change": -0.027197
+      "proj_change": -0.035129
     },
     {
       "pick": 15,
@@ -429,15 +429,15 @@
       "name": "Kansas City Royals",
       "w2025": 82,
       "proj_w": 81,
-      "w": 23,
+      "w": 24,
       "l": 38,
-      "rd": -53,
-      "pct": 0.377049,
+      "rd": -50,
+      "pct": 0.387097,
       "sim_w": 73.3,
       "sim_pct": 0.452,
       "playoff_pct": 4.5,
       "ws_pct": 0.1,
-      "proj_change": -0.074951
+      "proj_change": -0.064903
     },
     {
       "pick": 16,
@@ -446,15 +446,15 @@
       "name": "San Francisco Giants",
       "w2025": 81,
       "proj_w": 82,
-      "w": 23,
+      "w": 24,
       "l": 38,
-      "rd": -67,
-      "pct": 0.377049,
+      "rd": -66,
+      "pct": 0.387097,
       "sim_w": 71.1,
       "sim_pct": 0.439,
       "playoff_pct": 0.3,
       "ws_pct": 0.0,
-      "proj_change": -0.061951
+      "proj_change": -0.051903
     },
     {
       "pick": 17,
@@ -464,14 +464,14 @@
       "w2025": 80,
       "proj_w": 81,
       "w": 32,
-      "l": 28,
-      "rd": 10,
-      "pct": 0.533333,
+      "l": 29,
+      "rd": 3,
+      "pct": 0.52459,
       "sim_w": 82.6,
       "sim_pct": 0.51,
       "playoff_pct": 40.6,
       "ws_pct": 1.0,
-      "proj_change": 0.023333
+      "proj_change": 0.01459
     },
     {
       "pick": 18,
@@ -480,15 +480,15 @@
       "name": "Cleveland Guardians",
       "w2025": 88,
       "proj_w": 76,
-      "w": 35,
+      "w": 36,
       "l": 27,
-      "rd": 6,
-      "pct": 0.564516,
+      "rd": 7,
+      "pct": 0.571429,
       "sim_w": 86.7,
       "sim_pct": 0.535,
       "playoff_pct": 88.2,
       "ws_pct": 6.5,
-      "proj_change": 0.029516
+      "proj_change": 0.036429
     },
     {
       "pick": 19,
@@ -498,14 +498,14 @@
       "w2025": 90,
       "proj_w": 79,
       "w": 32,
-      "l": 27,
-      "rd": -7,
-      "pct": 0.542373,
+      "l": 28,
+      "rd": -8,
+      "pct": 0.533333,
       "sim_w": 80.4,
       "sim_pct": 0.496,
       "playoff_pct": 24.2,
       "ws_pct": 0.6,
-      "proj_change": 0.046373
+      "proj_change": 0.037333
     },
     {
       "pick": 20,
@@ -515,14 +515,14 @@
       "w2025": 77,
       "proj_w": 81,
       "w": 36,
-      "l": 22,
-      "rd": 10,
-      "pct": 0.62069,
+      "l": 23,
+      "rd": 5,
+      "pct": 0.610169,
       "sim_w": 90.5,
       "sim_pct": 0.559,
       "playoff_pct": 93.0,
       "ws_pct": 7.6,
-      "proj_change": 0.06169
+      "proj_change": 0.051169
     },
     {
       "pick": 21,
@@ -531,15 +531,15 @@
       "name": "St. Louis Cardinals",
       "w2025": 78,
       "proj_w": 75,
-      "w": 31,
+      "w": 32,
       "l": 28,
-      "rd": -14,
-      "pct": 0.525424,
+      "rd": -12,
+      "pct": 0.533333,
       "sim_w": 76.7,
       "sim_pct": 0.473,
       "playoff_pct": 7.0,
       "ws_pct": 0.0,
-      "proj_change": 0.052424
+      "proj_change": 0.060333
     },
     {
       "pick": 22,
@@ -549,14 +549,14 @@
       "w2025": 83,
       "proj_w": 78,
       "w": 31,
-      "l": 29,
-      "rd": -38,
-      "pct": 0.516667,
+      "l": 30,
+      "rd": -41,
+      "pct": 0.508197,
       "sim_w": 77.7,
       "sim_pct": 0.48,
       "playoff_pct": 12.3,
       "ws_pct": 0.2,
-      "proj_change": 0.036667
+      "proj_change": 0.028197
     },
     {
       "pick": 23,
@@ -566,14 +566,14 @@
       "w2025": 71,
       "proj_w": 82,
       "w": 33,
-      "l": 28,
-      "rd": 35,
-      "pct": 0.540984,
+      "l": 29,
+      "rd": 33,
+      "pct": 0.532258,
       "sim_w": 83.0,
       "sim_pct": 0.512,
       "playoff_pct": 41.5,
       "ws_pct": 1.2,
-      "proj_change": 0.028984
+      "proj_change": 0.020258
     },
     {
       "pick": 24,
@@ -583,14 +583,14 @@
       "w2025": 71,
       "proj_w": 82,
       "w": 33,
-      "l": 28,
-      "rd": 35,
-      "pct": 0.540984,
+      "l": 29,
+      "rd": 33,
+      "pct": 0.532258,
       "sim_w": 83.0,
       "sim_pct": 0.512,
       "playoff_pct": 41.5,
       "ws_pct": 1.2,
-      "proj_change": 0.028984
+      "proj_change": 0.020258
     },
     {
       "pick": 25,
@@ -600,14 +600,14 @@
       "w2025": 83,
       "proj_w": 78,
       "w": 31,
-      "l": 29,
-      "rd": -38,
-      "pct": 0.516667,
+      "l": 30,
+      "rd": -41,
+      "pct": 0.508197,
       "sim_w": 77.7,
       "sim_pct": 0.48,
       "playoff_pct": 12.3,
       "ws_pct": 0.2,
-      "proj_change": 0.036667
+      "proj_change": 0.028197
     },
     {
       "pick": 26,
@@ -616,15 +616,15 @@
       "name": "Oakland A's",
       "w2025": 76,
       "proj_w": 80,
-      "w": 29,
+      "w": 30,
       "l": 31,
-      "rd": -33,
-      "pct": 0.483333,
+      "rd": -32,
+      "pct": 0.491803,
       "sim_w": 79.3,
       "sim_pct": 0.49,
       "playoff_pct": 24.7,
       "ws_pct": 1.4,
-      "proj_change": -0.006667
+      "proj_change": 0.001803
     },
     {
       "pick": 27,
@@ -633,15 +633,15 @@
       "name": "Oakland A's",
       "w2025": 76,
       "proj_w": 80,
-      "w": 29,
+      "w": 30,
       "l": 31,
-      "rd": -33,
-      "pct": 0.483333,
+      "rd": -32,
+      "pct": 0.491803,
       "sim_w": 79.3,
       "sim_pct": 0.49,
       "playoff_pct": 24.7,
       "ws_pct": 1.4,
-      "proj_change": -0.006667
+      "proj_change": 0.001803
     },
     {
       "pick": 28,
@@ -650,15 +650,15 @@
       "name": "St. Louis Cardinals",
       "w2025": 78,
       "proj_w": 75,
-      "w": 31,
+      "w": 32,
       "l": 28,
-      "rd": -14,
-      "pct": 0.525424,
+      "rd": -12,
+      "pct": 0.533333,
       "sim_w": 76.7,
       "sim_pct": 0.473,
       "playoff_pct": 7.0,
       "ws_pct": 0.0,
-      "proj_change": 0.052424
+      "proj_change": 0.060333
     },
     {
       "pick": 29,
@@ -667,15 +667,15 @@
       "name": "Miami Marlins",
       "w2025": 79,
       "proj_w": 75,
-      "w": 28,
+      "w": 29,
       "l": 34,
-      "rd": -21,
-      "pct": 0.451613,
+      "rd": -18,
+      "pct": 0.460317,
       "sim_w": 74.3,
       "sim_pct": 0.459,
       "playoff_pct": 3.1,
       "ws_pct": 0.0,
-      "proj_change": -0.007387
+      "proj_change": 0.001317
     },
     {
       "pick": 30,
@@ -685,14 +685,14 @@
       "w2025": 70,
       "proj_w": 79,
       "w": 29,
-      "l": 33,
-      "rd": -16,
-      "pct": 0.467742,
+      "l": 34,
+      "rd": -24,
+      "pct": 0.460317,
       "sim_w": 75.7,
       "sim_pct": 0.467,
       "playoff_pct": 8.9,
       "ws_pct": 0.3,
-      "proj_change": 0.000742
+      "proj_change": -0.006683
     }
   ],
   "not_picked": [
@@ -701,10 +701,10 @@
       "name": "Chicago White Sox",
       "w2025": 41,
       "proj_w": 71,
-      "w": 32,
+      "w": 33,
       "l": 29,
-      "rd": 3,
-      "pct": 0.52459,
+      "rd": 11,
+      "pct": 0.532258,
       "sim_pct": 0.458
     },
     {
@@ -713,9 +713,9 @@
       "w2025": 61,
       "proj_w": 62,
       "w": 24,
-      "l": 38,
-      "rd": -76,
-      "pct": 0.387097,
+      "l": 39,
+      "rd": -83,
+      "pct": 0.380952,
       "sim_pct": 0.391
     },
     {
@@ -723,10 +723,10 @@
       "name": "Los Angeles Angels",
       "w2025": 69,
       "proj_w": 66,
-      "w": 23,
+      "w": 24,
       "l": 39,
-      "rd": -58,
-      "pct": 0.370968,
+      "rd": -51,
+      "pct": 0.380952,
       "sim_pct": 0.394
     },
     {
@@ -735,9 +735,9 @@
       "w2025": 72,
       "proj_w": 67,
       "w": 31,
-      "l": 31,
-      "rd": -7,
-      "pct": 0.5,
+      "l": 32,
+      "rd": -10,
+      "pct": 0.492063,
       "sim_pct": 0.449
     }
   ],
@@ -747,270 +747,270 @@
       "owner": "Jimmy",
       "team": "LAD",
       "name": "Los Angeles Dodgers",
-      "actual_pct": 0.639344,
-      "optimal_pct": 0.672131,
-      "value": -0.032787
+      "actual_pct": 0.645161,
+      "optimal_pct": 0.677419,
+      "value": -0.032258
     },
     {
       "pick": 2,
       "owner": "Lon",
       "team": "NYM",
       "name": "New York Mets",
-      "actual_pct": 0.42623,
-      "optimal_pct": 0.639344,
-      "value": -0.213114
+      "actual_pct": 0.435484,
+      "optimal_pct": 0.645161,
+      "value": -0.209677
     },
     {
       "pick": 3,
       "owner": "Ant",
       "team": "NYY",
       "name": "New York Yankees",
-      "actual_pct": 0.6,
-      "optimal_pct": 0.637931,
-      "value": -0.037931
+      "actual_pct": 0.590164,
+      "optimal_pct": 0.627119,
+      "value": -0.036955
     },
     {
       "pick": 4,
       "owner": "Marz",
       "team": "PHI",
       "name": "Philadelphia Phillies",
-      "actual_pct": 0.516667,
-      "optimal_pct": 0.62069,
-      "value": -0.104023
+      "actual_pct": 0.52459,
+      "optimal_pct": 0.610169,
+      "value": -0.085579
     },
     {
       "pick": 5,
       "owner": "Phil",
       "team": "SEA",
       "name": "Seattle Mariners",
-      "actual_pct": 0.532258,
-      "optimal_pct": 0.6,
-      "value": -0.067742
+      "actual_pct": 0.52381,
+      "optimal_pct": 0.590164,
+      "value": -0.066354
     },
     {
       "pick": 6,
       "owner": "Dom",
       "team": "TOR",
       "name": "Toronto Blue Jays",
-      "actual_pct": 0.47541,
-      "optimal_pct": 0.564516,
-      "value": -0.089106
+      "actual_pct": 0.467742,
+      "optimal_pct": 0.571429,
+      "value": -0.103687
     },
     {
       "pick": 7,
       "owner": "Fur",
       "team": "CHC",
       "name": "Chicago Cubs",
-      "actual_pct": 0.52459,
-      "optimal_pct": 0.542373,
-      "value": -0.017783
+      "actual_pct": 0.516129,
+      "optimal_pct": 0.533333,
+      "value": -0.017204
     },
     {
       "pick": 8,
       "owner": "Adam B",
       "team": "ATL",
       "name": "Atlanta Braves",
-      "actual_pct": 0.672131,
-      "optimal_pct": 0.540984,
-      "value": 0.131147
+      "actual_pct": 0.677419,
+      "optimal_pct": 0.533333,
+      "value": 0.144086
     },
     {
       "pick": 9,
       "owner": "Fig",
       "team": "BOS",
       "name": "Boston Red Sox",
-      "actual_pct": 0.423729,
-      "optimal_pct": 0.540984,
-      "value": -0.117255
+      "actual_pct": 0.433333,
+      "optimal_pct": 0.533333,
+      "value": -0.1
     },
     {
       "pick": 10,
       "owner": "Kev",
       "team": "DET",
       "name": "Detroit Tigers",
-      "actual_pct": 0.387097,
-      "optimal_pct": 0.533333,
-      "value": -0.146236
+      "actual_pct": 0.396825,
+      "optimal_pct": 0.532258,
+      "value": -0.135433
     },
     {
       "pick": 11,
       "owner": "Kev",
       "team": "HOU",
       "name": "Houston Astros",
-      "actual_pct": 0.435484,
+      "actual_pct": 0.444444,
       "optimal_pct": 0.532258,
-      "value": -0.096774
+      "value": -0.087814
     },
     {
       "pick": 12,
       "owner": "Fig",
       "team": "MIL",
       "name": "Milwaukee Brewers",
-      "actual_pct": 0.637931,
-      "optimal_pct": 0.525424,
-      "value": 0.112507
+      "actual_pct": 0.627119,
+      "optimal_pct": 0.52459,
+      "value": 0.102529
     },
     {
       "pick": 13,
       "owner": "Adam B",
       "team": "BAL",
       "name": "Baltimore Orioles",
-      "actual_pct": 0.47541,
-      "optimal_pct": 0.525424,
-      "value": -0.050014
+      "actual_pct": 0.467742,
+      "optimal_pct": 0.52459,
+      "value": -0.056848
     },
     {
       "pick": 14,
       "owner": "Fur",
       "team": "TEX",
       "name": "Texas Rangers",
-      "actual_pct": 0.491803,
-      "optimal_pct": 0.52459,
-      "value": -0.032787
+      "actual_pct": 0.483871,
+      "optimal_pct": 0.52381,
+      "value": -0.039939
     },
     {
       "pick": 15,
       "owner": "Dom",
       "team": "KCR",
       "name": "Kansas City Royals",
-      "actual_pct": 0.377049,
-      "optimal_pct": 0.516667,
-      "value": -0.139618
+      "actual_pct": 0.387097,
+      "optimal_pct": 0.516129,
+      "value": -0.129032
     },
     {
       "pick": 16,
       "owner": "Phil",
       "team": "SFG",
       "name": "San Francisco Giants",
-      "actual_pct": 0.377049,
-      "optimal_pct": 0.516667,
-      "value": -0.139618
+      "actual_pct": 0.387097,
+      "optimal_pct": 0.508197,
+      "value": -0.1211
     },
     {
       "pick": 17,
       "owner": "Marz",
       "team": "ARI",
       "name": "Arizona Diamondbacks",
-      "actual_pct": 0.533333,
-      "optimal_pct": 0.516667,
-      "value": 0.016666
+      "actual_pct": 0.52459,
+      "optimal_pct": 0.508197,
+      "value": 0.016393
     },
     {
       "pick": 18,
       "owner": "Ant",
       "team": "CLE",
       "name": "Cleveland Guardians",
-      "actual_pct": 0.564516,
+      "actual_pct": 0.571429,
       "optimal_pct": 0.491803,
-      "value": 0.072713
+      "value": 0.079626
     },
     {
       "pick": 19,
       "owner": "Lon",
       "team": "SDP",
       "name": "San Diego Padres",
-      "actual_pct": 0.542373,
-      "optimal_pct": 0.483333,
-      "value": 0.05904
+      "actual_pct": 0.533333,
+      "optimal_pct": 0.491803,
+      "value": 0.04153
     },
     {
       "pick": 20,
       "owner": "Jimmy",
       "team": "TBR",
       "name": "Tampa Bay Rays",
-      "actual_pct": 0.62069,
-      "optimal_pct": 0.483333,
-      "value": 0.137357
+      "actual_pct": 0.610169,
+      "optimal_pct": 0.483871,
+      "value": 0.126298
     },
     {
       "pick": 21,
       "owner": "Jimmy",
       "team": "STL",
       "name": "St. Louis Cardinals",
-      "actual_pct": 0.525424,
-      "optimal_pct": 0.47541,
-      "value": 0.050014
+      "actual_pct": 0.533333,
+      "optimal_pct": 0.467742,
+      "value": 0.065591
     },
     {
       "pick": 22,
       "owner": "Lon",
       "team": "CIN",
       "name": "Cincinnati Reds",
-      "actual_pct": 0.516667,
-      "optimal_pct": 0.47541,
-      "value": 0.041257
+      "actual_pct": 0.508197,
+      "optimal_pct": 0.467742,
+      "value": 0.040455
     },
     {
       "pick": 23,
       "owner": "Ant",
       "team": "PIT",
       "name": "Pittsburgh Pirates",
-      "actual_pct": 0.540984,
-      "optimal_pct": 0.467742,
-      "value": 0.073242
+      "actual_pct": 0.532258,
+      "optimal_pct": 0.460317,
+      "value": 0.071941
     },
     {
       "pick": 24,
       "owner": "Marz",
       "team": "PIT",
       "name": "Pittsburgh Pirates",
-      "actual_pct": 0.540984,
-      "optimal_pct": 0.451613,
-      "value": 0.089371
+      "actual_pct": 0.532258,
+      "optimal_pct": 0.460317,
+      "value": 0.071941
     },
     {
       "pick": 25,
       "owner": "Phil",
       "team": "CIN",
       "name": "Cincinnati Reds",
-      "actual_pct": 0.516667,
-      "optimal_pct": 0.435484,
-      "value": 0.081183
+      "actual_pct": 0.508197,
+      "optimal_pct": 0.444444,
+      "value": 0.063753
     },
     {
       "pick": 26,
       "owner": "Dom",
       "team": "ATH",
       "name": "Oakland A's",
-      "actual_pct": 0.483333,
-      "optimal_pct": 0.42623,
-      "value": 0.057103
+      "actual_pct": 0.491803,
+      "optimal_pct": 0.435484,
+      "value": 0.056319
     },
     {
       "pick": 27,
       "owner": "Fur",
       "team": "ATH",
       "name": "Oakland A's",
-      "actual_pct": 0.483333,
-      "optimal_pct": 0.423729,
-      "value": 0.059604
+      "actual_pct": 0.491803,
+      "optimal_pct": 0.433333,
+      "value": 0.05847
     },
     {
       "pick": 28,
       "owner": "Adam B",
       "team": "STL",
       "name": "St. Louis Cardinals",
-      "actual_pct": 0.525424,
-      "optimal_pct": 0.387097,
-      "value": 0.138327
+      "actual_pct": 0.533333,
+      "optimal_pct": 0.396825,
+      "value": 0.136508
     },
     {
       "pick": 29,
       "owner": "Fig",
       "team": "MIA",
       "name": "Miami Marlins",
-      "actual_pct": 0.451613,
-      "optimal_pct": 0.377049,
-      "value": 0.074564
+      "actual_pct": 0.460317,
+      "optimal_pct": 0.387097,
+      "value": 0.07322
     },
     {
       "pick": 30,
       "owner": "Kev",
       "team": "MIN",
       "name": "Minnesota Twins",
-      "actual_pct": 0.467742,
-      "optimal_pct": 0.377049,
-      "value": 0.090693
+      "actual_pct": 0.460317,
+      "optimal_pct": 0.387097,
+      "value": 0.07322
     }
   ],
   "owner_monthly": {
@@ -1028,10 +1028,10 @@
         "pct": 0.6125
       },
       "jun": {
-        "w": 1,
-        "l": 5,
-        "rd": -15,
-        "pct": 0.1667
+        "w": 3,
+        "l": 6,
+        "rd": -11,
+        "pct": 0.3333
       }
     },
     "Lon": {
@@ -1048,10 +1048,10 @@
         "pct": 0.4699
       },
       "jun": {
-        "w": 1,
-        "l": 4,
-        "rd": -13,
-        "pct": 0.2
+        "w": 2,
+        "l": 6,
+        "rd": -11,
+        "pct": 0.25
       }
     },
     "Ant": {
@@ -1068,10 +1068,10 @@
         "pct": 0.5882
       },
       "jun": {
-        "w": 2,
-        "l": 1,
-        "rd": 4,
-        "pct": 0.6667
+        "w": 3,
+        "l": 3,
+        "rd": 2,
+        "pct": 0.5
       }
     },
     "Marz": {
@@ -1088,10 +1088,10 @@
         "pct": 0.5833
       },
       "jun": {
-        "w": 3,
-        "l": 1,
-        "rd": 7,
-        "pct": 0.75
+        "w": 4,
+        "l": 3,
+        "rd": -1,
+        "pct": 0.5714
       }
     },
     "Phil": {
@@ -1108,10 +1108,10 @@
         "pct": 0.4217
       },
       "jun": {
-        "w": 3,
-        "l": 3,
-        "rd": -19,
-        "pct": 0.5
+        "w": 4,
+        "l": 5,
+        "rd": -27,
+        "pct": 0.4444
       }
     },
     "Dom": {
@@ -1128,10 +1128,10 @@
         "pct": 0.4235
       },
       "jun": {
-        "w": 2,
-        "l": 2,
+        "w": 4,
+        "l": 3,
         "rd": 6,
-        "pct": 0.5
+        "pct": 0.5714
       }
     },
     "Fur": {
@@ -1148,10 +1148,10 @@
         "pct": 0.4353
       },
       "jun": {
-        "w": 3,
-        "l": 1,
-        "rd": 4,
-        "pct": 0.75
+        "w": 4,
+        "l": 3,
+        "rd": 2,
+        "pct": 0.5714
       }
     },
     "Adam B": {
@@ -1168,10 +1168,10 @@
         "pct": 0.5301
       },
       "jun": {
-        "w": 2,
-        "l": 2,
-        "rd": -1,
-        "pct": 0.5
+        "w": 4,
+        "l": 3,
+        "rd": -2,
+        "pct": 0.5714
       }
     },
     "Fig": {
@@ -1188,10 +1188,10 @@
         "pct": 0.5244
       },
       "jun": {
-        "w": 4,
-        "l": 1,
-        "rd": 25,
-        "pct": 0.8
+        "w": 6,
+        "l": 2,
+        "rd": 34,
+        "pct": 0.75
       }
     },
     "Kev": {
@@ -1208,92 +1208,92 @@
         "pct": 0.4
       },
       "jun": {
-        "w": 4,
-        "l": 1,
-        "rd": 10,
-        "pct": 0.8
+        "w": 6,
+        "l": 2,
+        "rd": 9,
+        "pct": 0.75
       }
     }
   },
   "monthly_by_team": {
-    "SFG": {
-      "apr": {
-        "w": 13,
-        "l": 18,
-        "rd": -26,
-        "pct": 0.4194
-      },
-      "may": {
-        "w": 10,
-        "l": 18,
-        "rd": -22,
-        "pct": 0.3571
-      },
-      "jun": {
-        "w": 0,
-        "l": 2,
-        "rd": -19,
-        "pct": 0.0
-      }
-    },
-    "BOS": {
-      "apr": {
-        "w": 12,
-        "l": 19,
-        "rd": -16,
-        "pct": 0.3871
-      },
-      "may": {
-        "w": 13,
-        "l": 14,
-        "rd": 11,
-        "pct": 0.4815
-      },
-      "jun": {
-        "w": 0,
-        "l": 1,
-        "rd": -2,
-        "pct": 0.0
-      }
-    },
-    "MIA": {
+    "BAL": {
       "apr": {
         "w": 15,
         "l": 16,
-        "rd": 1,
+        "rd": -12,
         "pct": 0.4839
       },
       "may": {
-        "w": 11,
-        "l": 18,
-        "rd": -30,
-        "pct": 0.3793
+        "w": 13,
+        "l": 16,
+        "rd": -26,
+        "pct": 0.4483
       },
       "jun": {
-        "w": 2,
-        "l": 0,
-        "rd": 8,
-        "pct": 1.0
+        "w": 1,
+        "l": 1,
+        "rd": -5,
+        "pct": 0.5
       }
     },
-    "STL": {
+    "MIN": {
       "apr": {
-        "w": 18,
-        "l": 13,
-        "rd": -3,
-        "pct": 0.5806
+        "w": 14,
+        "l": 18,
+        "rd": 5,
+        "pct": 0.4375
       },
       "may": {
         "w": 13,
-        "l": 13,
-        "rd": -7,
-        "pct": 0.5
+        "l": 15,
+        "rd": -26,
+        "pct": 0.4643
       },
       "jun": {
-        "w": 0,
+        "w": 2,
+        "l": 1,
+        "rd": -3,
+        "pct": 0.6667
+      }
+    },
+    "SEA": {
+      "apr": {
+        "w": 16,
+        "l": 16,
+        "rd": 7,
+        "pct": 0.5
+      },
+      "may": {
+        "w": 15,
+        "l": 13,
+        "rd": 23,
+        "pct": 0.5357
+      },
+      "jun": {
+        "w": 2,
+        "l": 1,
+        "rd": 0,
+        "pct": 0.6667
+      }
+    },
+    "ARI": {
+      "apr": {
+        "w": 16,
+        "l": 14,
+        "rd": -24,
+        "pct": 0.5333
+      },
+      "may": {
+        "w": 15,
+        "l": 13,
+        "rd": 32,
+        "pct": 0.5357
+      },
+      "jun": {
+        "w": 1,
         "l": 2,
-        "rd": -4,
-        "pct": 0.0
+        "rd": -5,
+        "pct": 0.3333
       }
     },
     "NYY": {
@@ -1311,7 +1311,187 @@
       },
       "jun": {
         "w": 0,
+        "l": 2,
+        "rd": -6,
+        "pct": 0.0
+      }
+    },
+    "ATH": {
+      "apr": {
+        "w": 17,
+        "l": 14,
+        "rd": -5,
+        "pct": 0.5484
+      },
+      "may": {
+        "w": 11,
+        "l": 17,
+        "rd": -29,
+        "pct": 0.3929
+      },
+      "jun": {
+        "w": 2,
+        "l": 0,
+        "rd": 2,
+        "pct": 1.0
+      }
+    },
+    "STL": {
+      "apr": {
+        "w": 18,
+        "l": 13,
+        "rd": -3,
+        "pct": 0.5806
+      },
+      "may": {
+        "w": 13,
+        "l": 13,
+        "rd": -7,
+        "pct": 0.5
+      },
+      "jun": {
+        "w": 1,
+        "l": 2,
+        "rd": -2,
+        "pct": 0.3333
+      }
+    },
+    "NYM": {
+      "apr": {
+        "w": 10,
+        "l": 21,
+        "rd": -35,
+        "pct": 0.3226
+      },
+      "may": {
+        "w": 16,
+        "l": 12,
+        "rd": 22,
+        "pct": 0.5714
+      },
+      "jun": {
+        "w": 1,
+        "l": 2,
+        "rd": 0,
+        "pct": 0.3333
+      }
+    },
+    "CLE": {
+      "apr": {
+        "w": 16,
+        "l": 16,
+        "rd": -8,
+        "pct": 0.5
+      },
+      "may": {
+        "w": 18,
+        "l": 11,
+        "rd": 9,
+        "pct": 0.6207
+      },
+      "jun": {
+        "w": 2,
+        "l": 0,
+        "rd": 6,
+        "pct": 1.0
+      }
+    },
+    "DET": {
+      "apr": {
+        "w": 16,
+        "l": 16,
+        "rd": 9,
+        "pct": 0.5
+      },
+      "may": {
+        "w": 6,
+        "l": 22,
+        "rd": -48,
+        "pct": 0.2143
+      },
+      "jun": {
+        "w": 3,
+        "l": 0,
+        "rd": 14,
+        "pct": 1.0
+      }
+    },
+    "BOS": {
+      "apr": {
+        "w": 12,
+        "l": 19,
+        "rd": -16,
+        "pct": 0.3871
+      },
+      "may": {
+        "w": 13,
+        "l": 14,
+        "rd": 11,
+        "pct": 0.4815
+      },
+      "jun": {
+        "w": 1,
         "l": 1,
+        "rd": 5,
+        "pct": 0.5
+      }
+    },
+    "KCR": {
+      "apr": {
+        "w": 12,
+        "l": 19,
+        "rd": -22,
+        "pct": 0.3871
+      },
+      "may": {
+        "w": 10,
+        "l": 18,
+        "rd": -37,
+        "pct": 0.3571
+      },
+      "jun": {
+        "w": 2,
+        "l": 1,
+        "rd": 9,
+        "pct": 0.6667
+      }
+    },
+    "CIN": {
+      "apr": {
+        "w": 20,
+        "l": 11,
+        "rd": -3,
+        "pct": 0.6452
+      },
+      "may": {
+        "w": 10,
+        "l": 17,
+        "rd": -29,
+        "pct": 0.3704
+      },
+      "jun": {
+        "w": 1,
+        "l": 2,
+        "rd": -9,
+        "pct": 0.3333
+      }
+    },
+    "TOR": {
+      "apr": {
+        "w": 14,
+        "l": 17,
+        "rd": -24,
+        "pct": 0.4516
+      },
+      "may": {
+        "w": 15,
+        "l": 14,
+        "rd": 17,
+        "pct": 0.5172
+      },
+      "jun": {
+        "w": 0,
+        "l": 2,
         "rd": -5,
         "pct": 0.0
       }
@@ -1331,208 +1511,28 @@
       },
       "jun": {
         "w": 1,
-        "l": 0,
-        "rd": 4,
-        "pct": 1.0
-      }
-    },
-    "SEA": {
-      "apr": {
-        "w": 16,
-        "l": 16,
-        "rd": 7,
-        "pct": 0.5
-      },
-      "may": {
-        "w": 15,
-        "l": 13,
-        "rd": 23,
-        "pct": 0.5357
-      },
-      "jun": {
-        "w": 2,
-        "l": 0,
-        "rd": 6,
-        "pct": 1.0
-      }
-    },
-    "LAD": {
-      "apr": {
-        "w": 20,
-        "l": 11,
-        "rd": 66,
-        "pct": 0.6452
-      },
-      "may": {
-        "w": 18,
-        "l": 10,
-        "rd": 63,
-        "pct": 0.6429
-      },
-      "jun": {
-        "w": 1,
         "l": 1,
-        "rd": -2,
+        "rd": 2,
         "pct": 0.5
       }
     },
-    "SDP": {
-      "apr": {
-        "w": 19,
-        "l": 11,
-        "rd": 8,
-        "pct": 0.6333
-      },
-      "may": {
-        "w": 13,
-        "l": 15,
-        "rd": -14,
-        "pct": 0.4643
-      },
-      "jun": {
-        "w": 0,
-        "l": 1,
-        "rd": -1,
-        "pct": 0.0
-      }
-    },
-    "TOR": {
-      "apr": {
-        "w": 14,
-        "l": 17,
-        "rd": -24,
-        "pct": 0.4516
-      },
-      "may": {
-        "w": 15,
-        "l": 14,
-        "rd": 17,
-        "pct": 0.5172
-      },
-      "jun": {
-        "w": 0,
-        "l": 1,
-        "rd": -1,
-        "pct": 0.0
-      }
-    },
-    "NYM": {
-      "apr": {
-        "w": 10,
-        "l": 21,
-        "rd": -35,
-        "pct": 0.3226
-      },
-      "may": {
-        "w": 16,
-        "l": 12,
-        "rd": 22,
-        "pct": 0.5714
-      },
-      "jun": {
-        "w": 0,
-        "l": 2,
-        "rd": -6,
-        "pct": 0.0
-      }
-    },
-    "BAL": {
+    "MIA": {
       "apr": {
         "w": 15,
         "l": 16,
-        "rd": -12,
+        "rd": 1,
         "pct": 0.4839
       },
       "may": {
-        "w": 13,
-        "l": 16,
-        "rd": -26,
-        "pct": 0.4483
-      },
-      "jun": {
-        "w": 1,
-        "l": 0,
-        "rd": 2,
-        "pct": 1.0
-      }
-    },
-    "KCR": {
-      "apr": {
-        "w": 12,
-        "l": 19,
-        "rd": -22,
-        "pct": 0.3871
-      },
-      "may": {
-        "w": 10,
-        "l": 18,
-        "rd": -37,
-        "pct": 0.3571
-      },
-      "jun": {
-        "w": 1,
-        "l": 1,
-        "rd": 6,
-        "pct": 0.5
-      }
-    },
-    "DET": {
-      "apr": {
-        "w": 16,
-        "l": 16,
-        "rd": 9,
-        "pct": 0.5
-      },
-      "may": {
-        "w": 6,
-        "l": 22,
-        "rd": -48,
-        "pct": 0.2143
-      },
-      "jun": {
-        "w": 2,
-        "l": 0,
-        "rd": 9,
-        "pct": 1.0
-      }
-    },
-    "PHI": {
-      "apr": {
-        "w": 12,
-        "l": 19,
-        "rd": -45,
-        "pct": 0.3871
-      },
-      "may": {
-        "w": 18,
-        "l": 10,
-        "rd": 19,
-        "pct": 0.6429
-      },
-      "jun": {
-        "w": 1,
-        "l": 0,
-        "rd": 1,
-        "pct": 1.0
-      }
-    },
-    "ATH": {
-      "apr": {
-        "w": 17,
-        "l": 14,
-        "rd": -5,
-        "pct": 0.5484
-      },
-      "may": {
         "w": 11,
-        "l": 17,
-        "rd": -29,
-        "pct": 0.3929
+        "l": 18,
+        "rd": -30,
+        "pct": 0.3793
       },
       "jun": {
-        "w": 1,
+        "w": 3,
         "l": 0,
-        "rd": 1,
+        "rd": 11,
         "pct": 1.0
       }
     },
@@ -1551,149 +1551,9 @@
       },
       "jun": {
         "w": 0,
-        "l": 1,
-        "rd": -1,
+        "l": 2,
+        "rd": -2,
         "pct": 0.0
-      }
-    },
-    "CIN": {
-      "apr": {
-        "w": 20,
-        "l": 11,
-        "rd": -3,
-        "pct": 0.6452
-      },
-      "may": {
-        "w": 10,
-        "l": 17,
-        "rd": -29,
-        "pct": 0.3704
-      },
-      "jun": {
-        "w": 1,
-        "l": 1,
-        "rd": -6,
-        "pct": 0.5
-      }
-    },
-    "ATL": {
-      "apr": {
-        "w": 22,
-        "l": 10,
-        "rd": 66,
-        "pct": 0.6875
-      },
-      "may": {
-        "w": 18,
-        "l": 10,
-        "rd": 43,
-        "pct": 0.6429
-      },
-      "jun": {
-        "w": 1,
-        "l": 0,
-        "rd": 1,
-        "pct": 1.0
-      }
-    },
-    "MIN": {
-      "apr": {
-        "w": 14,
-        "l": 18,
-        "rd": 5,
-        "pct": 0.4375
-      },
-      "may": {
-        "w": 13,
-        "l": 15,
-        "rd": -26,
-        "pct": 0.4643
-      },
-      "jun": {
-        "w": 2,
-        "l": 0,
-        "rd": 5,
-        "pct": 1.0
-      }
-    },
-    "CLE": {
-      "apr": {
-        "w": 16,
-        "l": 16,
-        "rd": -8,
-        "pct": 0.5
-      },
-      "may": {
-        "w": 18,
-        "l": 11,
-        "rd": 9,
-        "pct": 0.6207
-      },
-      "jun": {
-        "w": 1,
-        "l": 0,
-        "rd": 5,
-        "pct": 1.0
-      }
-    },
-    "MIL": {
-      "apr": {
-        "w": 16,
-        "l": 14,
-        "rd": 38,
-        "pct": 0.5333
-      },
-      "may": {
-        "w": 19,
-        "l": 7,
-        "rd": 36,
-        "pct": 0.7308
-      },
-      "jun": {
-        "w": 2,
-        "l": 0,
-        "rd": 19,
-        "pct": 1.0
-      }
-    },
-    "ARI": {
-      "apr": {
-        "w": 16,
-        "l": 14,
-        "rd": -24,
-        "pct": 0.5333
-      },
-      "may": {
-        "w": 15,
-        "l": 13,
-        "rd": 32,
-        "pct": 0.5357
-      },
-      "jun": {
-        "w": 1,
-        "l": 1,
-        "rd": 2,
-        "pct": 0.5
-      }
-    },
-    "TEX": {
-      "apr": {
-        "w": 15,
-        "l": 16,
-        "rd": 8,
-        "pct": 0.4839
-      },
-      "may": {
-        "w": 13,
-        "l": 15,
-        "rd": -1,
-        "pct": 0.4643
-      },
-      "jun": {
-        "w": 2,
-        "l": 0,
-        "rd": 4,
-        "pct": 1.0
       }
     },
     "TBR": {
@@ -1711,9 +1571,149 @@
       },
       "jun": {
         "w": 0,
-        "l": 2,
-        "rd": -9,
+        "l": 3,
+        "rd": -14,
         "pct": 0.0
+      }
+    },
+    "TEX": {
+      "apr": {
+        "w": 15,
+        "l": 16,
+        "rd": 8,
+        "pct": 0.4839
+      },
+      "may": {
+        "w": 13,
+        "l": 15,
+        "rd": -1,
+        "pct": 0.4643
+      },
+      "jun": {
+        "w": 2,
+        "l": 1,
+        "rd": 2,
+        "pct": 0.6667
+      }
+    },
+    "PHI": {
+      "apr": {
+        "w": 12,
+        "l": 19,
+        "rd": -45,
+        "pct": 0.3871
+      },
+      "may": {
+        "w": 18,
+        "l": 10,
+        "rd": 19,
+        "pct": 0.6429
+      },
+      "jun": {
+        "w": 2,
+        "l": 0,
+        "rd": 2,
+        "pct": 1.0
+      }
+    },
+    "ATL": {
+      "apr": {
+        "w": 22,
+        "l": 10,
+        "rd": 66,
+        "pct": 0.6875
+      },
+      "may": {
+        "w": 18,
+        "l": 10,
+        "rd": 43,
+        "pct": 0.6429
+      },
+      "jun": {
+        "w": 2,
+        "l": 0,
+        "rd": 5,
+        "pct": 1.0
+      }
+    },
+    "SFG": {
+      "apr": {
+        "w": 13,
+        "l": 18,
+        "rd": -26,
+        "pct": 0.4194
+      },
+      "may": {
+        "w": 10,
+        "l": 18,
+        "rd": -22,
+        "pct": 0.3571
+      },
+      "jun": {
+        "w": 1,
+        "l": 2,
+        "rd": -18,
+        "pct": 0.3333
+      }
+    },
+    "SDP": {
+      "apr": {
+        "w": 19,
+        "l": 11,
+        "rd": 8,
+        "pct": 0.6333
+      },
+      "may": {
+        "w": 13,
+        "l": 15,
+        "rd": -14,
+        "pct": 0.4643
+      },
+      "jun": {
+        "w": 0,
+        "l": 2,
+        "rd": -2,
+        "pct": 0.0
+      }
+    },
+    "MIL": {
+      "apr": {
+        "w": 16,
+        "l": 14,
+        "rd": 38,
+        "pct": 0.5333
+      },
+      "may": {
+        "w": 19,
+        "l": 7,
+        "rd": 36,
+        "pct": 0.7308
+      },
+      "jun": {
+        "w": 2,
+        "l": 1,
+        "rd": 18,
+        "pct": 0.6667
+      }
+    },
+    "LAD": {
+      "apr": {
+        "w": 20,
+        "l": 11,
+        "rd": 66,
+        "pct": 0.6452
+      },
+      "may": {
+        "w": 18,
+        "l": 10,
+        "rd": 63,
+        "pct": 0.6429
+      },
+      "jun": {
+        "w": 2,
+        "l": 1,
+        "rd": 5,
+        "pct": 0.6667
       }
     },
     "HOU": {
@@ -1730,10 +1730,10 @@
         "pct": 0.5172
       },
       "jun": {
-        "w": 0,
+        "w": 1,
         "l": 1,
-        "rd": -4,
-        "pct": 0.0
+        "rd": -2,
+        "pct": 0.5
       }
     }
   },
