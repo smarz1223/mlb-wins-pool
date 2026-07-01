@@ -405,9 +405,10 @@ function renderStandings(){
   cards.push('<div class="sc"><div class="slabel">Cum. Leader</div><div class="sval">'+s[0].owner+'</div><div class="ssub">'+pct(s[0].pct)+' Win %</div></div>');
 
   // Monthly leader cards — current live month first, then completed months
-  var livePeriods=activePeriods.filter(function(p){return snaps.indexOf(p)===-1;});
+  // Cards: oldest completed first, then live month last (chronological)
   var donePeriods=activePeriods.filter(function(p){return snaps.indexOf(p)!==-1;});
-  var orderedPeriods=livePeriods.concat(donePeriods);
+  var livePeriods=activePeriods.filter(function(p){return snaps.indexOf(p)===-1;});
+  var orderedPeriods=donePeriods.concat(livePeriods);
 
   orderedPeriods.forEach(function(p){
     var label=D.month_labels[p];
@@ -469,9 +470,9 @@ function buildMonthlyStTables(){
   var periods=D.month_order.filter(function(p){
     return Object.keys(D.owner_monthly).some(function(o){return D.owner_monthly[o][p];});
   });
-  // Order: live/current month first, then completed months oldest→newest
+  // Order: live/current month first, then completed months newest→oldest
   var livePds=periods.filter(function(p){return snaps.indexOf(p)===-1;});
-  var donePds=periods.filter(function(p){return snaps.indexOf(p)!==-1;});
+  var donePds=periods.filter(function(p){return snaps.indexOf(p)!==-1;}).reverse();
   var orderedPds=livePds.concat(donePds);
   var html='';
   orderedPds.forEach(function(p){
