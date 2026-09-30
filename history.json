@@ -1,0 +1,1855 @@
+{
+ "years": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "latest_year": 2026,
+ "notes": [
+  "2020 was a shortened season (180 games per owner)."
+ ],
+ "champions": [
+  {
+   "year": 2018,
+   "owner": "Marz",
+   "w": 282.5,
+   "l": 203.5,
+   "pct": 0.581276,
+   "rd": 401,
+   "runner_up": "Adam B",
+   "runner_up_pct": 0.555556
+  },
+  {
+   "year": 2019,
+   "owner": "Phil",
+   "w": 264,
+   "l": 222,
+   "pct": 0.54321,
+   "rd": 227,
+   "runner_up": "Dom",
+   "runner_up_pct": 0.534979
+  },
+  {
+   "year": 2020,
+   "owner": "Ant",
+   "w": 104,
+   "l": 76,
+   "pct": 0.577778,
+   "rd": 113,
+   "runner_up": "Jimmy",
+   "runner_up_pct": 0.516667
+  },
+  {
+   "year": 2021,
+   "owner": "Phil",
+   "w": 282,
+   "l": 204,
+   "pct": 0.580247,
+   "rd": 278,
+   "runner_up": "Kev",
+   "runner_up_pct": 0.559671
+  },
+  {
+   "year": 2022,
+   "owner": "Dom",
+   "w": 257,
+   "l": 229,
+   "pct": 0.528807,
+   "rd": 97,
+   "runner_up": "Ant",
+   "runner_up_pct": 0.520576
+  },
+  {
+   "year": 2023,
+   "owner": "Jimmy",
+   "w": 275,
+   "l": 210,
+   "pct": 0.56701,
+   "rd": 221,
+   "runner_up": "Kev",
+   "runner_up_pct": 0.548454
+  },
+  {
+   "year": 2024,
+   "owner": "Lon",
+   "w": 273,
+   "l": 213,
+   "pct": 0.561728,
+   "rd": 156,
+   "runner_up": "Adam B",
+   "runner_up_pct": 0.55144
+  },
+  {
+   "year": 2025,
+   "owner": "Fig",
+   "w": 267,
+   "l": 219,
+   "pct": 0.549383,
+   "rd": 252,
+   "runner_up": "Phil",
+   "runner_up_pct": 0.54321
+  },
+  {
+   "year": 2026,
+   "owner": "Jimmy",
+   "w": 275,
+   "l": 211,
+   "pct": 0.565844,
+   "rd": 258,
+   "runner_up": "Fig",
+   "runner_up_pct": 0.555556
+  }
+ ],
+ "all_time": [
+  {
+   "owner": "Adam B",
+   "seasons": 9,
+   "gp": 4065,
+   "w": 2116,
+   "l": 1949,
+   "pct": 0.520541,
+   "rd": 998,
+   "titles": 0,
+   "avg_finish": 4.5556,
+   "best_finish": 2,
+   "sub500": 2,
+   "active": true
+  },
+  {
+   "owner": "Dom",
+   "seasons": 9,
+   "gp": 4066,
+   "w": 2099,
+   "l": 1967,
+   "pct": 0.516232,
+   "rd": 276,
+   "titles": 1,
+   "avg_finish": 4.6667,
+   "best_finish": 1,
+   "sub500": 2,
+   "active": true
+  },
+  {
+   "owner": "Fig",
+   "seasons": 8,
+   "gp": 3580,
+   "w": 1843,
+   "l": 1737,
+   "pct": 0.514804,
+   "rd": 343,
+   "titles": 1,
+   "avg_finish": 5.0,
+   "best_finish": 1,
+   "sub500": 2,
+   "active": true
+  },
+  {
+   "owner": "Kev",
+   "seasons": 9,
+   "gp": 4064,
+   "w": 2076,
+   "l": 1988,
+   "pct": 0.510827,
+   "rd": 372,
+   "titles": 0,
+   "avg_finish": 5.4444,
+   "best_finish": 2,
+   "sub500": 5,
+   "active": true
+  },
+  {
+   "owner": "Marz",
+   "seasons": 9,
+   "gp": 4068,
+   "w": 2073.5,
+   "l": 1994.5,
+   "pct": 0.50971,
+   "rd": 348,
+   "titles": 1,
+   "avg_finish": 5.4444,
+   "best_finish": 1,
+   "sub500": 2,
+   "active": true
+  },
+  {
+   "owner": "Lon",
+   "seasons": 9,
+   "gp": 4068,
+   "w": 2059,
+   "l": 2009,
+   "pct": 0.506146,
+   "rd": -37,
+   "titles": 1,
+   "avg_finish": 5.6667,
+   "best_finish": 1,
+   "sub500": 5,
+   "active": true
+  },
+  {
+   "owner": "Ant",
+   "seasons": 9,
+   "gp": 4067,
+   "w": 2051.5,
+   "l": 2015.5,
+   "pct": 0.504426,
+   "rd": 497,
+   "titles": 1,
+   "avg_finish": 5.7778,
+   "best_finish": 1,
+   "sub500": 5,
+   "active": true
+  },
+  {
+   "owner": "Phil",
+   "seasons": 9,
+   "gp": 4068,
+   "w": 2052,
+   "l": 2016,
+   "pct": 0.504425,
+   "rd": 226,
+   "titles": 2,
+   "avg_finish": 5.8889,
+   "best_finish": 1,
+   "sub500": 5,
+   "active": true
+  },
+  {
+   "owner": "Jimmy",
+   "seasons": 9,
+   "gp": 4067,
+   "w": 2018,
+   "l": 2049,
+   "pct": 0.496189,
+   "rd": -3,
+   "titles": 2,
+   "avg_finish": 5.8889,
+   "best_finish": 1,
+   "sub500": 6,
+   "active": true
+  },
+  {
+   "owner": "Fur",
+   "seasons": 9,
+   "gp": 4068,
+   "w": 2001,
+   "l": 2067,
+   "pct": 0.491888,
+   "rd": -386,
+   "titles": 0,
+   "avg_finish": 6.4444,
+   "best_finish": 3,
+   "sub500": 5,
+   "active": true
+  },
+  {
+   "owner": "Merg",
+   "seasons": 1,
+   "gp": 486,
+   "w": 235,
+   "l": 251,
+   "pct": 0.483539,
+   "rd": -92,
+   "titles": 0,
+   "avg_finish": 7.0,
+   "best_finish": 7,
+   "sub500": 1,
+   "active": false
+  }
+ ],
+ "grid": [
+  {
+   "owner": "Adam B",
+   "active": true,
+   "all_time_pct": 0.520541,
+   "all_time_rd": 998,
+   "avg_finish": 4.5556,
+   "by_year": {
+    "2018": {
+     "pct": 0.555556,
+     "rd": 259,
+     "finish": 2,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.515464,
+     "rd": 52,
+     "finish": 5,
+     "tb": true
+    },
+    "2020": {
+     "pct": 0.488889,
+     "rd": 5,
+     "finish": 7,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.539095,
+     "rd": 333,
+     "finish": 4,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.516461,
+     "rd": 104,
+     "finish": 4,
+     "tb": false
+    },
+    "2023": {
+     "pct": 0.447423,
+     "rd": -78,
+     "finish": 9,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.55144,
+     "rd": 145,
+     "finish": 2,
+     "tb": true
+    },
+    "2025": {
+     "pct": 0.534979,
+     "rd": 112,
+     "finish": 3,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.515464,
+     "rd": 66,
+     "finish": 5,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Dom",
+   "active": true,
+   "all_time_pct": 0.516232,
+   "all_time_rd": 276,
+   "avg_finish": 4.6667,
+   "by_year": {
+    "2018": {
+     "pct": 0.520576,
+     "rd": 33,
+     "finish": 4,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.534979,
+     "rd": 200,
+     "finish": 2,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.494444,
+     "rd": 19,
+     "finish": 6,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.513402,
+     "rd": -51,
+     "finish": 6,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.528807,
+     "rd": 97,
+     "finish": 1,
+     "tb": false
+    },
+    "2023": {
+     "pct": 0.547325,
+     "rd": 200,
+     "finish": 3,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.548454,
+     "rd": 106,
+     "finish": 4,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.50823,
+     "rd": 76,
+     "finish": 6,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.436214,
+     "rd": -404,
+     "finish": 10,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Fig",
+   "active": true,
+   "all_time_pct": 0.514804,
+   "all_time_rd": 343,
+   "avg_finish": 5.0,
+   "by_year": {
+    "2019": {
+     "pct": 0.454733,
+     "rd": -191,
+     "finish": 9,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.5,
+     "rd": -26,
+     "finish": 5,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.545267,
+     "rd": 98,
+     "finish": 3,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.462963,
+     "rd": -192,
+     "finish": 9,
+     "tb": false
+    },
+    "2023": {
+     "pct": 0.510288,
+     "rd": 8,
+     "finish": 6,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.530992,
+     "rd": 99,
+     "finish": 5,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.549383,
+     "rd": 252,
+     "finish": 1,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.555556,
+     "rd": 295,
+     "finish": 2,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Kev",
+   "active": true,
+   "all_time_pct": 0.510827,
+   "all_time_rd": 372,
+   "avg_finish": 5.4444,
+   "by_year": {
+    "2018": {
+     "pct": 0.487654,
+     "rd": -80,
+     "finish": 5,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.515464,
+     "rd": 70,
+     "finish": 4,
+     "tb": true
+    },
+    "2020": {
+     "pct": 0.477528,
+     "rd": -26,
+     "finish": 8,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.559671,
+     "rd": 247,
+     "finish": 2,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.460905,
+     "rd": -178,
+     "finish": 10,
+     "tb": false
+    },
+    "2023": {
+     "pct": 0.548454,
+     "rd": 172,
+     "finish": 2,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.55144,
+     "rd": 140,
+     "finish": 3,
+     "tb": true
+    },
+    "2025": {
+     "pct": 0.493827,
+     "rd": 46,
+     "finish": 8,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.481481,
+     "rd": -19,
+     "finish": 7,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Marz",
+   "active": true,
+   "all_time_pct": 0.50971,
+   "all_time_rd": 348,
+   "avg_finish": 5.4444,
+   "by_year": {
+    "2018": {
+     "pct": 0.581276,
+     "rd": 401,
+     "finish": 1,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.514403,
+     "rd": 117,
+     "finish": 6,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.505556,
+     "rd": -30,
+     "finish": 4,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.44856,
+     "rd": -177,
+     "finish": 10,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.520576,
+     "rd": 70,
+     "finish": 3,
+     "tb": true
+    },
+    "2023": {
+     "pct": 0.442387,
+     "rd": -194,
+     "finish": 10,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.522634,
+     "rd": 43,
+     "finish": 6,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.522634,
+     "rd": 66,
+     "finish": 5,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.526749,
+     "rd": 52,
+     "finish": 4,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Lon",
+   "active": true,
+   "all_time_pct": 0.506146,
+   "all_time_rd": -37,
+   "avg_finish": 5.6667,
+   "by_year": {
+    "2018": {
+     "pct": 0.483539,
+     "rd": -53,
+     "finish": 6,
+     "tb": true
+    },
+    "2019": {
+     "pct": 0.526749,
+     "rd": 114,
+     "finish": 3,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.461111,
+     "rd": -48,
+     "finish": 10,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.469136,
+     "rd": -124,
+     "finish": 8,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.49177,
+     "rd": -24,
+     "finish": 6,
+     "tb": true
+    },
+    "2023": {
+     "pct": 0.506173,
+     "rd": -49,
+     "finish": 7,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.561728,
+     "rd": 156,
+     "finish": 1,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.532922,
+     "rd": 142,
+     "finish": 4,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.493827,
+     "rd": -151,
+     "finish": 6,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Ant",
+   "active": true,
+   "all_time_pct": 0.504426,
+   "all_time_rd": 497,
+   "avg_finish": 5.7778,
+   "by_year": {
+    "2018": {
+     "pct": 0.478395,
+     "rd": -87,
+     "finish": 8,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.493827,
+     "rd": -92,
+     "finish": 7,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.577778,
+     "rd": 113,
+     "finish": 1,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.489712,
+     "rd": 95,
+     "finish": 7,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.520576,
+     "rd": 80,
+     "finish": 2,
+     "tb": true
+    },
+    "2023": {
+     "pct": 0.526749,
+     "rd": 213,
+     "finish": 5,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.473251,
+     "rd": -13,
+     "finish": 9,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.489712,
+     "rd": 11,
+     "finish": 10,
+     "tb": true
+    },
+    "2026": {
+     "pct": 0.536082,
+     "rd": 177,
+     "finish": 3,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Phil",
+   "active": true,
+   "all_time_pct": 0.504425,
+   "all_time_rd": 226,
+   "avg_finish": 5.8889,
+   "by_year": {
+    "2018": {
+     "pct": 0.446502,
+     "rd": -226,
+     "finish": 9,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.54321,
+     "rd": 227,
+     "finish": 1,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.466667,
+     "rd": -37,
+     "finish": 9,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.580247,
+     "rd": 278,
+     "finish": 1,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.485597,
+     "rd": -19,
+     "finish": 8,
+     "tb": false
+    },
+    "2023": {
+     "pct": 0.54321,
+     "rd": 279,
+     "finish": 4,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.462963,
+     "rd": -138,
+     "finish": 10,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.54321,
+     "rd": 171,
+     "finish": 2,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.444444,
+     "rd": -309,
+     "finish": 9,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Jimmy",
+   "active": true,
+   "all_time_pct": 0.496189,
+   "all_time_rd": -3,
+   "avg_finish": 5.8889,
+   "by_year": {
+    "2018": {
+     "pct": 0.438272,
+     "rd": -262,
+     "finish": 10,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.471193,
+     "rd": -195,
+     "finish": 8,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.516667,
+     "rd": 18,
+     "finish": 2,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.452675,
+     "rd": -204,
+     "finish": 9,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.495885,
+     "rd": 130,
+     "finish": 5,
+     "tb": false
+    },
+    "2023": {
+     "pct": 0.56701,
+     "rd": 221,
+     "finish": 1,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.481481,
+     "rd": -10,
+     "finish": 8,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.489712,
+     "rd": 41,
+     "finish": 9,
+     "tb": true
+    },
+    "2026": {
+     "pct": 0.565844,
+     "rd": 258,
+     "finish": 1,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Fur",
+   "active": true,
+   "all_time_pct": 0.491888,
+   "all_time_rd": -386,
+   "avg_finish": 6.4444,
+   "by_year": {
+    "2018": {
+     "pct": 0.524691,
+     "rd": 107,
+     "finish": 3,
+     "tb": false
+    },
+    "2019": {
+     "pct": 0.430041,
+     "rd": -302,
+     "finish": 10,
+     "tb": false
+    },
+    "2020": {
+     "pct": 0.511111,
+     "rd": 36,
+     "finish": 3,
+     "tb": false
+    },
+    "2021": {
+     "pct": 0.537037,
+     "rd": 97,
+     "finish": 5,
+     "tb": false
+    },
+    "2022": {
+     "pct": 0.49177,
+     "rd": -66,
+     "finish": 7,
+     "tb": true
+    },
+    "2023": {
+     "pct": 0.467078,
+     "rd": -111,
+     "finish": 8,
+     "tb": false
+    },
+    "2024": {
+     "pct": 0.493827,
+     "rd": 22,
+     "finish": 7,
+     "tb": false
+    },
+    "2025": {
+     "pct": 0.504115,
+     "rd": -32,
+     "finish": 7,
+     "tb": false
+    },
+    "2026": {
+     "pct": 0.479424,
+     "rd": -137,
+     "finish": 8,
+     "tb": false
+    }
+   }
+  },
+  {
+   "owner": "Merg",
+   "active": false,
+   "all_time_pct": 0.483539,
+   "all_time_rd": -92,
+   "avg_finish": 7.0,
+   "by_year": {
+    "2018": {
+     "pct": 0.483539,
+     "rd": -92,
+     "finish": 7,
+     "tb": true
+    }
+   }
+  }
+ ],
+ "seasons": {
+  "2018": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Marz",
+     "w": 282.5,
+     "l": 203.5,
+     "pct": 0.581276,
+     "rd": 401,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Adam B",
+     "w": 270,
+     "l": 216,
+     "pct": 0.555556,
+     "rd": 259,
+     "gb": 12.5,
+     "tb": false
+    },
+    {
+     "rank": 3,
+     "owner": "Fur",
+     "w": 255,
+     "l": 231,
+     "pct": 0.524691,
+     "rd": 107,
+     "gb": 27.5,
+     "tb": false
+    },
+    {
+     "rank": 4,
+     "owner": "Dom",
+     "w": 253,
+     "l": 233,
+     "pct": 0.520576,
+     "rd": 33,
+     "gb": 29.5,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Kev",
+     "w": 237,
+     "l": 249,
+     "pct": 0.487654,
+     "rd": -80,
+     "gb": 45.5,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Lon",
+     "w": 235,
+     "l": 251,
+     "pct": 0.483539,
+     "rd": -53,
+     "gb": 47.5,
+     "tb": true
+    },
+    {
+     "rank": 7,
+     "owner": "Merg",
+     "w": 235,
+     "l": 251,
+     "pct": 0.483539,
+     "rd": -92,
+     "gb": 47.5,
+     "tb": true
+    },
+    {
+     "rank": 8,
+     "owner": "Ant",
+     "w": 232.5,
+     "l": 253.5,
+     "pct": 0.478395,
+     "rd": -87,
+     "gb": 50,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Phil",
+     "w": 217,
+     "l": 269,
+     "pct": 0.446502,
+     "rd": -226,
+     "gb": 65.5,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Jimmy",
+     "w": 213,
+     "l": 273,
+     "pct": 0.438272,
+     "rd": -262,
+     "gb": 69.5,
+     "tb": false
+    }
+   ]
+  },
+  "2019": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Phil",
+     "w": 264,
+     "l": 222,
+     "pct": 0.54321,
+     "rd": 227,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Dom",
+     "w": 260,
+     "l": 226,
+     "pct": 0.534979,
+     "rd": 200,
+     "gb": 4,
+     "tb": false
+    },
+    {
+     "rank": 3,
+     "owner": "Lon",
+     "w": 256,
+     "l": 230,
+     "pct": 0.526749,
+     "rd": 114,
+     "gb": 8,
+     "tb": false
+    },
+    {
+     "rank": 4,
+     "owner": "Kev",
+     "w": 250,
+     "l": 235,
+     "pct": 0.515464,
+     "rd": 70,
+     "gb": 13.5,
+     "tb": true
+    },
+    {
+     "rank": 5,
+     "owner": "Adam B",
+     "w": 250,
+     "l": 235,
+     "pct": 0.515464,
+     "rd": 52,
+     "gb": 13.5,
+     "tb": true
+    },
+    {
+     "rank": 6,
+     "owner": "Marz",
+     "w": 250,
+     "l": 236,
+     "pct": 0.514403,
+     "rd": 117,
+     "gb": 14,
+     "tb": false
+    },
+    {
+     "rank": 7,
+     "owner": "Ant",
+     "w": 240,
+     "l": 246,
+     "pct": 0.493827,
+     "rd": -92,
+     "gb": 24,
+     "tb": false
+    },
+    {
+     "rank": 8,
+     "owner": "Jimmy",
+     "w": 229,
+     "l": 257,
+     "pct": 0.471193,
+     "rd": -195,
+     "gb": 35,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Fig",
+     "w": 221,
+     "l": 265,
+     "pct": 0.454733,
+     "rd": -191,
+     "gb": 43,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Fur",
+     "w": 209,
+     "l": 277,
+     "pct": 0.430041,
+     "rd": -302,
+     "gb": 55,
+     "tb": false
+    }
+   ]
+  },
+  "2020": {
+   "games": 180,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Ant",
+     "w": 104,
+     "l": 76,
+     "pct": 0.577778,
+     "rd": 113,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Jimmy",
+     "w": 93,
+     "l": 87,
+     "pct": 0.516667,
+     "rd": 18,
+     "gb": 11,
+     "tb": false
+    },
+    {
+     "rank": 3,
+     "owner": "Fur",
+     "w": 92,
+     "l": 88,
+     "pct": 0.511111,
+     "rd": 36,
+     "gb": 12,
+     "tb": false
+    },
+    {
+     "rank": 4,
+     "owner": "Marz",
+     "w": 91,
+     "l": 89,
+     "pct": 0.505556,
+     "rd": -30,
+     "gb": 13,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Fig",
+     "w": 90,
+     "l": 90,
+     "pct": 0.5,
+     "rd": -26,
+     "gb": 14,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Dom",
+     "w": 89,
+     "l": 91,
+     "pct": 0.494444,
+     "rd": 19,
+     "gb": 15,
+     "tb": false
+    },
+    {
+     "rank": 7,
+     "owner": "Adam B",
+     "w": 88,
+     "l": 92,
+     "pct": 0.488889,
+     "rd": 5,
+     "gb": 16,
+     "tb": false
+    },
+    {
+     "rank": 8,
+     "owner": "Kev",
+     "w": 85,
+     "l": 93,
+     "pct": 0.477528,
+     "rd": -26,
+     "gb": 18,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Phil",
+     "w": 84,
+     "l": 96,
+     "pct": 0.466667,
+     "rd": -37,
+     "gb": 20,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Lon",
+     "w": 83,
+     "l": 97,
+     "pct": 0.461111,
+     "rd": -48,
+     "gb": 21,
+     "tb": false
+    }
+   ]
+  },
+  "2021": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Phil",
+     "w": 282,
+     "l": 204,
+     "pct": 0.580247,
+     "rd": 278,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Kev",
+     "w": 272,
+     "l": 214,
+     "pct": 0.559671,
+     "rd": 247,
+     "gb": 10,
+     "tb": false
+    },
+    {
+     "rank": 3,
+     "owner": "Fig",
+     "w": 265,
+     "l": 221,
+     "pct": 0.545267,
+     "rd": 98,
+     "gb": 17,
+     "tb": false
+    },
+    {
+     "rank": 4,
+     "owner": "Adam B",
+     "w": 262,
+     "l": 224,
+     "pct": 0.539095,
+     "rd": 333,
+     "gb": 20,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Fur",
+     "w": 261,
+     "l": 225,
+     "pct": 0.537037,
+     "rd": 97,
+     "gb": 21,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Dom",
+     "w": 249,
+     "l": 236,
+     "pct": 0.513402,
+     "rd": -51,
+     "gb": 32.5,
+     "tb": false
+    },
+    {
+     "rank": 7,
+     "owner": "Ant",
+     "w": 238,
+     "l": 248,
+     "pct": 0.489712,
+     "rd": 95,
+     "gb": 44,
+     "tb": false
+    },
+    {
+     "rank": 8,
+     "owner": "Lon",
+     "w": 228,
+     "l": 258,
+     "pct": 0.469136,
+     "rd": -124,
+     "gb": 54,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Jimmy",
+     "w": 220,
+     "l": 266,
+     "pct": 0.452675,
+     "rd": -204,
+     "gb": 62,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Marz",
+     "w": 218,
+     "l": 268,
+     "pct": 0.44856,
+     "rd": -177,
+     "gb": 64,
+     "tb": false
+    }
+   ]
+  },
+  "2022": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Dom",
+     "w": 257,
+     "l": 229,
+     "pct": 0.528807,
+     "rd": 97,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Ant",
+     "w": 253,
+     "l": 233,
+     "pct": 0.520576,
+     "rd": 80,
+     "gb": 4,
+     "tb": true
+    },
+    {
+     "rank": 3,
+     "owner": "Marz",
+     "w": 253,
+     "l": 233,
+     "pct": 0.520576,
+     "rd": 70,
+     "gb": 4,
+     "tb": true
+    },
+    {
+     "rank": 4,
+     "owner": "Adam B",
+     "w": 251,
+     "l": 235,
+     "pct": 0.516461,
+     "rd": 104,
+     "gb": 6,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Jimmy",
+     "w": 241,
+     "l": 245,
+     "pct": 0.495885,
+     "rd": 130,
+     "gb": 16,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Lon",
+     "w": 239,
+     "l": 247,
+     "pct": 0.49177,
+     "rd": -24,
+     "gb": 18,
+     "tb": true
+    },
+    {
+     "rank": 7,
+     "owner": "Fur",
+     "w": 239,
+     "l": 247,
+     "pct": 0.49177,
+     "rd": -66,
+     "gb": 18,
+     "tb": true
+    },
+    {
+     "rank": 8,
+     "owner": "Phil",
+     "w": 236,
+     "l": 250,
+     "pct": 0.485597,
+     "rd": -19,
+     "gb": 21,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Fig",
+     "w": 225,
+     "l": 261,
+     "pct": 0.462963,
+     "rd": -192,
+     "gb": 32,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Kev",
+     "w": 224,
+     "l": 262,
+     "pct": 0.460905,
+     "rd": -178,
+     "gb": 33,
+     "tb": false
+    }
+   ]
+  },
+  "2023": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Jimmy",
+     "w": 275,
+     "l": 210,
+     "pct": 0.56701,
+     "rd": 221,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Kev",
+     "w": 266,
+     "l": 219,
+     "pct": 0.548454,
+     "rd": 172,
+     "gb": 9,
+     "tb": false
+    },
+    {
+     "rank": 3,
+     "owner": "Dom",
+     "w": 266,
+     "l": 220,
+     "pct": 0.547325,
+     "rd": 200,
+     "gb": 9.5,
+     "tb": false
+    },
+    {
+     "rank": 4,
+     "owner": "Phil",
+     "w": 264,
+     "l": 222,
+     "pct": 0.54321,
+     "rd": 279,
+     "gb": 11.5,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Ant",
+     "w": 256,
+     "l": 230,
+     "pct": 0.526749,
+     "rd": 213,
+     "gb": 19.5,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Fig",
+     "w": 248,
+     "l": 238,
+     "pct": 0.510288,
+     "rd": 8,
+     "gb": 27.5,
+     "tb": false
+    },
+    {
+     "rank": 7,
+     "owner": "Lon",
+     "w": 246,
+     "l": 240,
+     "pct": 0.506173,
+     "rd": -49,
+     "gb": 29.5,
+     "tb": false
+    },
+    {
+     "rank": 8,
+     "owner": "Fur",
+     "w": 227,
+     "l": 259,
+     "pct": 0.467078,
+     "rd": -111,
+     "gb": 48.5,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Adam B",
+     "w": 217,
+     "l": 268,
+     "pct": 0.447423,
+     "rd": -78,
+     "gb": 58,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Marz",
+     "w": 215,
+     "l": 271,
+     "pct": 0.442387,
+     "rd": -194,
+     "gb": 60.5,
+     "tb": false
+    }
+   ]
+  },
+  "2024": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Lon",
+     "w": 273,
+     "l": 213,
+     "pct": 0.561728,
+     "rd": 156,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Adam B",
+     "w": 268,
+     "l": 218,
+     "pct": 0.55144,
+     "rd": 145,
+     "gb": 5,
+     "tb": true
+    },
+    {
+     "rank": 3,
+     "owner": "Kev",
+     "w": 268,
+     "l": 218,
+     "pct": 0.55144,
+     "rd": 140,
+     "gb": 5,
+     "tb": true
+    },
+    {
+     "rank": 4,
+     "owner": "Dom",
+     "w": 266,
+     "l": 219,
+     "pct": 0.548454,
+     "rd": 106,
+     "gb": 6.5,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Fig",
+     "w": 257,
+     "l": 227,
+     "pct": 0.530992,
+     "rd": 99,
+     "gb": 15,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Marz",
+     "w": 254,
+     "l": 232,
+     "pct": 0.522634,
+     "rd": 43,
+     "gb": 19,
+     "tb": false
+    },
+    {
+     "rank": 7,
+     "owner": "Fur",
+     "w": 240,
+     "l": 246,
+     "pct": 0.493827,
+     "rd": 22,
+     "gb": 33,
+     "tb": false
+    },
+    {
+     "rank": 8,
+     "owner": "Jimmy",
+     "w": 234,
+     "l": 252,
+     "pct": 0.481481,
+     "rd": -10,
+     "gb": 39,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Ant",
+     "w": 230,
+     "l": 256,
+     "pct": 0.473251,
+     "rd": -13,
+     "gb": 43,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Phil",
+     "w": 225,
+     "l": 261,
+     "pct": 0.462963,
+     "rd": -138,
+     "gb": 48,
+     "tb": false
+    }
+   ]
+  },
+  "2025": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Fig",
+     "w": 267,
+     "l": 219,
+     "pct": 0.549383,
+     "rd": 252,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Phil",
+     "w": 264,
+     "l": 222,
+     "pct": 0.54321,
+     "rd": 171,
+     "gb": 3,
+     "tb": false
+    },
+    {
+     "rank": 3,
+     "owner": "Adam B",
+     "w": 260,
+     "l": 226,
+     "pct": 0.534979,
+     "rd": 112,
+     "gb": 7,
+     "tb": false
+    },
+    {
+     "rank": 4,
+     "owner": "Lon",
+     "w": 259,
+     "l": 227,
+     "pct": 0.532922,
+     "rd": 142,
+     "gb": 8,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Marz",
+     "w": 254,
+     "l": 232,
+     "pct": 0.522634,
+     "rd": 66,
+     "gb": 13,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Dom",
+     "w": 247,
+     "l": 239,
+     "pct": 0.50823,
+     "rd": 76,
+     "gb": 20,
+     "tb": false
+    },
+    {
+     "rank": 7,
+     "owner": "Fur",
+     "w": 245,
+     "l": 241,
+     "pct": 0.504115,
+     "rd": -32,
+     "gb": 22,
+     "tb": false
+    },
+    {
+     "rank": 8,
+     "owner": "Kev",
+     "w": 240,
+     "l": 246,
+     "pct": 0.493827,
+     "rd": 46,
+     "gb": 27,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Jimmy",
+     "w": 238,
+     "l": 248,
+     "pct": 0.489712,
+     "rd": 41,
+     "gb": 29,
+     "tb": true
+    },
+    {
+     "rank": 10,
+     "owner": "Ant",
+     "w": 238,
+     "l": 248,
+     "pct": 0.489712,
+     "rd": 11,
+     "gb": 29,
+     "tb": true
+    }
+   ]
+  },
+  "2026": {
+   "games": 486,
+   "standings": [
+    {
+     "rank": 1,
+     "owner": "Jimmy",
+     "w": 275,
+     "l": 211,
+     "pct": 0.565844,
+     "rd": 258,
+     "gb": 0,
+     "tb": false
+    },
+    {
+     "rank": 2,
+     "owner": "Fig",
+     "w": 270,
+     "l": 216,
+     "pct": 0.555556,
+     "rd": 295,
+     "gb": 5,
+     "tb": false
+    },
+    {
+     "rank": 3,
+     "owner": "Ant",
+     "w": 260,
+     "l": 225,
+     "pct": 0.536082,
+     "rd": 177,
+     "gb": 14.5,
+     "tb": false
+    },
+    {
+     "rank": 4,
+     "owner": "Marz",
+     "w": 256,
+     "l": 230,
+     "pct": 0.526749,
+     "rd": 52,
+     "gb": 19,
+     "tb": false
+    },
+    {
+     "rank": 5,
+     "owner": "Adam B",
+     "w": 250,
+     "l": 235,
+     "pct": 0.515464,
+     "rd": 66,
+     "gb": 24.5,
+     "tb": false
+    },
+    {
+     "rank": 6,
+     "owner": "Lon",
+     "w": 240,
+     "l": 246,
+     "pct": 0.493827,
+     "rd": -151,
+     "gb": 35,
+     "tb": false
+    },
+    {
+     "rank": 7,
+     "owner": "Kev",
+     "w": 234,
+     "l": 252,
+     "pct": 0.481481,
+     "rd": -19,
+     "gb": 41,
+     "tb": false
+    },
+    {
+     "rank": 8,
+     "owner": "Fur",
+     "w": 233,
+     "l": 253,
+     "pct": 0.479424,
+     "rd": -137,
+     "gb": 42,
+     "tb": false
+    },
+    {
+     "rank": 9,
+     "owner": "Phil",
+     "w": 216,
+     "l": 270,
+     "pct": 0.444444,
+     "rd": -309,
+     "gb": 59,
+     "tb": false
+    },
+    {
+     "rank": 10,
+     "owner": "Dom",
+     "w": 212,
+     "l": 274,
+     "pct": 0.436214,
+     "rd": -404,
+     "gb": 63,
+     "tb": false
+    }
+   ]
+  }
+ },
+ "updated": "2026-09-30 21:09:39",
+ "source": "MLB Wins All-Time Google Sheet (Data tab)"
+}

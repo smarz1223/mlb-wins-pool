@@ -80,6 +80,18 @@ nav a.active{color:#fff;border-bottom-color:var(--gold2)}
 .heat-cell{color:#111!important;font-weight:600}
 /* ── OWNER GROUP in monthly team table ── */
 .owner-group-hd td{background:var(--cream2)!important;font-family:'Roboto Condensed',sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:var(--text);padding:6px 9px;border-top:2px solid var(--border)}
+/* ── HISTORY PAGE ── */
+.yr-pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:.9rem}
+.yr-pill{font-family:'Roboto Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:.5px;padding:4px 12px;border:1px solid var(--border);border-radius:3px;background:var(--white);color:var(--gray);cursor:pointer;transition:all .15s}
+.yr-pill:hover{border-color:var(--navy);color:var(--navy)}
+.yr-pill.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.hist-note{font-family:'Roboto Condensed',sans-serif;font-size:11px;color:var(--gray);margin-top:.6rem;line-height:1.5}
+.dt tbody tr.fmr td{color:var(--gray);font-style:italic}
+.dt tbody tr.fmr td:first-child{color:var(--gray)}
+.fmr-tag{font-weight:400;font-size:10px;margin-left:5px;color:var(--gray2)}
+.dt th.hall,.dt td.hall{border-right:1px solid var(--border)}
+.hsub{font-family:'Roboto Condensed',sans-serif;font-size:10px;font-weight:700;color:var(--gray);margin-left:4px}
+.dt.nw th,.dt.nw td{white-space:nowrap}
 /* ── RESPONSIVE ── */
 @media(max-width:900px){
   .header{padding:0 1rem;gap:.5rem}.header .hright{margin-left:auto}
@@ -99,6 +111,11 @@ nav a.active{color:#fff;border-bottom-color:var(--gold2)}
   nav a{font-size:11px;padding:0 10px}
   .badge{font-size:9px;padding:2px 7px}
 }
+/* ── PHONE NAV: 6 links in a 3x2 grid so every page link is always visible ── */
+@media(max-width:560px){
+  nav{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;border-top:1px solid rgba(255,255,255,.1)}
+  nav a{height:32px;justify-content:center;padding:0 4px;font-size:11px;letter-spacing:.8px}
+}
 </style>
 </head>
 <body>
@@ -110,6 +127,7 @@ nav a.active{color:#fff;border-bottom-color:var(--gold2)}
     <a href="#" onclick="showPage('monthly',this);return false">Monthly</a>
     <a href="#" onclick="showPage('teams',this);return false">Teams</a>
     <a href="#" onclick="showPage('draft',this);return false">Draft Board</a>
+    <a href="#" onclick="showPage('history',this);return false">History</a>
   </nav>
   <div class="hright"><div class="badge" id="last-updated">Loading…</div></div>
 </header>
@@ -257,12 +275,108 @@ nav a.active{color:#fff;border-bottom-color:var(--gold2)}
   </div>
 </div>
 
+<!-- ══════ HISTORY ══════ -->
+<div id="pg-history" class="page">
+  <div class="eyebrow">League History</div>
+  <div class="ptitle">History</div>
+  <div class="psub" id="hist-sub">All seasons</div>
+  <div id="hist-body">
+
+    <div class="card mb2">
+      <div class="ctitle">Champions by Year</div>
+      <div style="overflow-x:auto"><table class="dt nw" id="ht-champs">
+        <thead><tr>
+          <th>Year</th>
+          <th class="tal">Champion</th>
+          <th>Record</th>
+          <th>Win %</th>
+          <th class="hm">Run Diff</th>
+          <th class="tal hm">Runner-up</th>
+        </tr></thead>
+        <tbody id="ht-champs-tbody"></tbody>
+      </table></div>
+      <div class="hist-note" id="hn-champs"></div>
+    </div>
+
+    <div class="card mb2">
+      <div class="ctitle">All-Time Leaderboard — click any column to sort</div>
+      <div style="overflow-x:auto"><table class="dt nw" id="ht-all">
+        <thead><tr>
+          <th data-col="owner" onclick="sortTbl('ht-all',this)">Owner</th>
+          <th data-col="seasons" onclick="sortTbl('ht-all',this)">Seasons</th>
+          <th class="hm" data-col="gp" onclick="sortTbl('ht-all',this)">GP</th>
+          <th class="hm" data-col="w" onclick="sortTbl('ht-all',this)">W</th>
+          <th class="hm" data-col="l" onclick="sortTbl('ht-all',this)">L</th>
+          <th data-col="pct" onclick="sortTbl('ht-all',this)">Win %</th>
+          <th data-col="rd" onclick="sortTbl('ht-all',this)">R Diff</th>
+          <th data-col="titles" onclick="sortTbl('ht-all',this)">Titles</th>
+          <th data-col="avg_finish" onclick="sortTbl('ht-all',this)">Avg Finish</th>
+          <th data-col="sub500" onclick="sortTbl('ht-all',this)">&lt; .500</th>
+        </tr></thead>
+        <tbody id="ht-all-tbody"></tbody>
+      </table></div>
+      <div class="hist-note" id="hn-all"></div>
+    </div>
+
+    <div class="card mb2">
+      <div class="ctitle">Win % by Season</div>
+      <div style="overflow-x:auto"><table class="dt nw" id="hg-pct">
+        <thead id="hg-pct-thead"></thead>
+        <tbody id="hg-pct-tbody"></tbody>
+      </table></div>
+      <div class="hist-note" id="hn-pct"></div>
+    </div>
+
+    <div class="card mb2">
+      <div class="ctitle">Run Differential by Season</div>
+      <div style="overflow-x:auto"><table class="dt nw" id="hg-rd">
+        <thead id="hg-rd-thead"></thead>
+        <tbody id="hg-rd-tbody"></tbody>
+      </table></div>
+      <div class="hist-note" id="hn-rd"></div>
+    </div>
+
+    <div class="card mb2">
+      <div class="ctitle">Finish by Season</div>
+      <div style="overflow-x:auto"><table class="dt nw" id="hg-fin">
+        <thead id="hg-fin-thead"></thead>
+        <tbody id="hg-fin-tbody"></tbody>
+      </table></div>
+      <div class="hist-note" id="hn-fin"></div>
+    </div>
+
+    <div class="card mb2">
+      <div class="ctitle">Final Standings by Season</div>
+      <div class="yr-pills" id="hs-pills"></div>
+      <div style="overflow-x:auto"><table class="dt nw" id="hs-tbl">
+        <thead><tr>
+          <th data-col="rank" data-asc="1" onclick="sortTbl('hs-tbl',this)">#&nbsp;Owner</th>
+          <th data-col="w" onclick="sortTbl('hs-tbl',this)">W</th>
+          <th data-col="l" onclick="sortTbl('hs-tbl',this)">L</th>
+          <th data-col="pct" onclick="sortTbl('hs-tbl',this)">Win %</th>
+          <th data-col="rd" onclick="sortTbl('hs-tbl',this)">Run Diff</th>
+          <th data-col="gb" onclick="sortTbl('hs-tbl',this)">GB</th>
+        </tr></thead>
+        <tbody id="hs-tbody"></tbody>
+      </table></div>
+      <div class="hist-note" id="hs-note"></div>
+    </div>
+
+    <div class="card">
+      <div class="ctitle">Win % Trend by Season — click legend to highlight</div>
+      <div class="leg" id="hh-leg"></div>
+      <div style="position:relative;height:320px"><canvas id="ch-hist"></canvas></div>
+    </div>
+
+  </div>
+</div>
+
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
 // ── OWNER COLORS ──────────────────────────────────────────
-var OC={'Jimmy':'#c8102e','Adam B':'#1a56db','Ant':'#15803d','Fur':'#d97706','Lon':'#7c3aed','Marz':'#0891b2','Dom':'#be185d','Phil':'#0d9488','Fig':'#b45309','Kev':'#475569'};
+var OC={'Jimmy':'#c8102e','Adam B':'#1a56db','Ant':'#15803d','Fur':'#d97706','Lon':'#7c3aed','Marz':'#0891b2','Dom':'#be185d','Phil':'#0d9488','Fig':'#b45309','Kev':'#475569','Merg':'#94a3b8'};
 function oc(o){return OC[o]||'#666';}
 var OWNERS_ORDER=['Jimmy','Lon','Ant','Marz','Phil','Dom','Fur','Adam B','Fig','Kev'];
 
@@ -305,6 +419,7 @@ function showPage(id,el){
   document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active');});
   document.querySelectorAll('nav a').forEach(function(a){a.classList.remove('active');});
   document.getElementById('pg-'+id).classList.add('active');
+  if(id==='history'&&charts['hist']) charts['hist'].resize();
   if(el) el.classList.add('active');
 }
 
@@ -809,7 +924,226 @@ function renderDraft(){
   heatCol('dr-tbl',6,true,true);
 }
 
+// ═══════════════════════════════════════════════════════════
+// HISTORY PAGE  (data: history.json, written nightly by fetch_history.py)
+// Loads on its own: if history.json is missing, only this page is affected.
+// ═══════════════════════════════════════════════════════════
+var H=null, histLeg=null, histActive={};
+
+function loadHistory(){
+  fetch('history.json?_='+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(function(d){ H=d; renderHistory(); })
+    .catch(function(e){
+      console.error('Could not load history.json',e);
+      var el=document.getElementById('hist-body');
+      if(el) el.innerHTML='<div class="card"><div class="hist-note" style="font-size:13px">History data is not available yet. It is created by the nightly refresh (fetch_history.py).</div></div>';
+    });
+}
+
+// History shows Win % to one decimal (owners are only a few points apart all-time)
+function hn(v){ return Number.isInteger(v) ? String(v) : v.toFixed(1); }
+function hp(v){ return (v*100).toFixed(1)+'%'; }
+function hsign(v){ return (v>0?'+':'')+hn(v); }
+function hOwner(o){
+  var former = histActive[o]===false;
+  return '<span class="odot" style="background:'+oc(o)+'"></span>'+o+(former?'<span class="fmr-tag">(former)</span>':'');
+}
+function hNotes(withTie){
+  var parts=(H.notes||[]).slice();
+  if(withTie) parts.push('\u2020 Tied on Win %; finish decided by run differential.');
+  return parts.join(' ');
+}
+
+function renderHistory(){
+  histActive={};
+  H.all_time.forEach(function(a){ histActive[a.owner]=a.active; });
+  document.getElementById('hist-sub').textContent =
+    H.years[0]+'-'+H.latest_year+' \u00b7 '+H.years.length+' seasons \u00b7 '+H.all_time.length+' owners';
+  buildHistChamps();
+  buildHistAllTime();
+  buildHistGrid('pct');
+  buildHistGrid('rd');
+  buildHistGrid('fin');
+  buildHistSeasonPills();
+  showHistSeason(H.latest_year);
+  buildHistChart();
+  var n=hNotes(false);
+  document.getElementById('hn-champs').textContent=n;
+  document.getElementById('hn-all').textContent=n;
+  document.getElementById('hn-pct').textContent=n;
+  document.getElementById('hn-rd').textContent=n;
+  document.getElementById('hn-fin').textContent=hNotes(true);
+}
+
+// ── Champions ─────────────────────────────────────────────
+function buildHistChamps(){
+  document.getElementById('ht-champs-tbody').innerHTML = H.champions.slice().reverse().map(function(c){
+    return '<tr>'+
+      '<td>'+c.year+'</td>'+
+      '<td class="tal"><span class="rb r1">1</span>'+hOwner(c.owner)+'</td>'+
+      '<td>'+hn(c.w)+'-'+hn(c.l)+'</td>'+
+      '<td>'+hp(c.pct)+'</td>'+
+      '<td class="hm '+(c.rd>=0?'wt':'lt')+'">'+hsign(c.rd)+'</td>'+
+      '<td class="tal hm" style="font-weight:400">'+hOwner(c.runner_up)+'<span class="hsub">'+hp(c.runner_up_pct)+'</span></td>'+
+      '</tr>';
+  }).join('');
+}
+
+// ── All-time leaderboard ──────────────────────────────────
+function buildHistAllTime(){
+  document.getElementById('ht-all-tbody').innerHTML = H.all_time.map(function(a){
+    return '<tr'+(a.active?'':' class="np-row"')+
+      ' data-owner="'+a.owner+'" data-seasons="'+a.seasons+'" data-gp="'+a.gp+'" data-w="'+a.w+'" data-l="'+a.l+
+      '" data-pct="'+a.pct+'" data-rd="'+a.rd+'" data-titles="'+a.titles+'" data-avg_finish="'+a.avg_finish+'" data-sub500="'+a.sub500+'">'+
+      '<td>'+hOwner(a.owner)+'</td>'+
+      '<td>'+a.seasons+'</td>'+
+      '<td class="hm">'+hn(a.gp)+'</td>'+
+      '<td class="hm wt">'+hn(a.w)+'</td>'+
+      '<td class="hm lt">'+hn(a.l)+'</td>'+
+      '<td data-hv="'+a.pct+'">'+hp(a.pct)+'</td>'+
+      '<td class="'+(a.rd>=0?'wt':'lt')+'">'+hsign(a.rd)+'</td>'+
+      '<td>'+(a.titles>0?'<strong>'+a.titles+'</strong>':'0')+'</td>'+
+      '<td>'+a.avg_finish.toFixed(2)+'</td>'+
+      '<td>'+a.sub500+'</td>'+
+      '</tr>';
+  }).join('');
+  heatCol('ht-all',5,true,true);
+}
+
+// ── Season grids: pct / rd / fin ──────────────────────────
+function buildHistGrid(kind){
+  var id='hg-'+kind, yrs=H.years;
+  var allLabel = kind==='fin' ? 'Avg Finish' : 'All Time';
+  document.getElementById(id+'-thead').innerHTML =
+    '<tr><th>Owner</th><th class="hall">'+allLabel+'</th>'+
+    yrs.map(function(y){ return '<th>'+y+'</th>'; }).join('')+'</tr>';
+
+  document.getElementById(id+'-tbody').innerHTML = H.grid.map(function(g){
+    var all = kind==='pct' ? g.all_time_pct : (kind==='rd' ? g.all_time_rd : g.avg_finish);
+    var allTxt = kind==='pct' ? hp(all) : (kind==='rd' ? hsign(all) : all.toFixed(2));
+    var cells = yrs.map(function(y){
+      var c=g.by_year[String(y)];
+      if(!c) return '<td></td>';
+      var v = kind==='pct' ? c.pct : (kind==='rd' ? c.rd : c.finish);
+      var txt = kind==='pct' ? hp(v) : (kind==='rd' ? hsign(v) : (v+(c.tb?'\u2020':'')));
+      return '<td data-hv="'+v+'">'+txt+'</td>';
+    }).join('');
+    return '<tr'+(g.active?'':' class="fmr"')+'>'+
+      '<td>'+hOwner(g.owner)+'</td>'+
+      '<td class="hall" data-hv="'+all+'">'+allTxt+'</td>'+
+      cells+'</tr>';
+  }).join('');
+
+  // Heat: the All Time column on its own scale, all season cells together.
+  // Finish: lower is better, so green = 1st.
+  var higher = kind!=='fin';
+  var rows = Array.from(document.getElementById(id).querySelectorAll('tbody tr'));
+  applyHeat(rows.map(function(r){ return r.cells[1]; }), higher);
+  var seasonCells=[];
+  rows.forEach(function(r){
+    for(var i=2;i<r.cells.length;i++){
+      if(r.cells[i].dataset.hv!==undefined) seasonCells.push(r.cells[i]);
+    }
+  });
+  applyHeat(seasonCells, higher);
+}
+
+// ── Final standings by season (year picker) ───────────────
+function buildHistSeasonPills(){
+  document.getElementById('hs-pills').innerHTML = H.years.slice().reverse().map(function(y){
+    return '<button class="yr-pill" id="yp-'+y+'" onclick="showHistSeason('+y+')">'+y+'</button>';
+  }).join('');
+}
+
+function showHistSeason(y){
+  var s=H.seasons[String(y)];
+  if(!s) return;
+  H.years.forEach(function(yy){
+    var b=document.getElementById('yp-'+yy);
+    if(b) b.classList.toggle('on', yy===y);
+  });
+  var anyTie=false;
+  document.getElementById('hs-tbody').innerHTML = s.standings.map(function(r){
+    if(r.tb) anyTie=true;
+    var rc=r.rank===1?'r1':r.rank===2?'r2':r.rank===3?'r3':'rn';
+    var former = histActive[r.owner]===false;
+    return '<tr'+(former?' class="fmr"':'')+
+      ' data-rank="'+r.rank+'" data-w="'+r.w+'" data-l="'+r.l+'" data-pct="'+r.pct+'" data-rd="'+r.rd+'" data-gb="'+r.gb+'">'+
+      '<td><span class="rb '+rc+'">'+r.rank+'</span>'+hOwner(r.owner)+'</td>'+
+      '<td class="wt">'+hn(r.w)+'</td>'+
+      '<td class="lt">'+hn(r.l)+'</td>'+
+      '<td data-hv="'+r.pct+'">'+hp(r.pct)+(r.tb?' \u2020':'')+'</td>'+
+      '<td class="'+(r.rd>=0?'wt':'lt')+'">'+hsign(r.rd)+'</td>'+
+      '<td>'+(r.gb===0?'\u2014':r.gb.toFixed(1))+'</td>'+
+      '</tr>';
+  }).join('');
+  heatCol('hs-tbl',3,true);
+  var note=y+': '+s.games+' games per owner.';
+  var extra=(H.notes||[]).filter(function(n){ return n.indexOf(String(y))===0; });
+  if(extra.length) note=extra.join(' ');
+  if(anyTie) note+=' \u2020 Tied on Win %; finish decided by run differential.';
+  document.getElementById('hs-note').textContent=note;
+}
+
+// ── Win % trend chart ─────────────────────────────────────
+function buildHistChart(){
+  var cv=document.getElementById('ch-hist');
+  if(!cv || typeof Chart==='undefined') return;
+  if(charts['hist']) charts['hist'].destroy();
+
+  document.getElementById('hh-leg').innerHTML = H.grid.map(function(g){
+    return '<span class="leg-item" id="hleg-'+g.owner.replace(/ /g,'-')+'" onclick="toggleHistLeg(\''+g.owner+'\')">'+
+      '<span class="dot" style="background:'+oc(g.owner)+'"></span>'+g.owner+'</span>';
+  }).join('');
+
+  var datasets = H.grid.map(function(g){
+    var col=oc(g.owner), dim=histLeg && histLeg!==g.owner, on=(histLeg===g.owner);
+    return {
+      label:g.owner,
+      data:H.years.map(function(y){ var c=g.by_year[String(y)]; return c?c.pct:null; }),
+      borderColor: dim ? col+'30' : col,
+      backgroundColor: col,
+      pointBackgroundColor: dim ? col+'30' : col,
+      pointBorderColor: dim ? col+'30' : col,
+      tension:0,
+      pointRadius: on ? 6 : 4,
+      borderWidth: on ? 3 : (histLeg ? 1 : 2),
+      spanGaps:false,
+      order: on ? 0 : 1
+    };
+  });
+
+  charts['hist']=new Chart(cv.getContext('2d'),{
+    type:'line',
+    data:{labels:H.years, datasets:datasets},
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:function(c){ return c.dataset.label+': '+hp(c.parsed.y); }}}
+      },
+      scales:{y:{ticks:{callback:function(v){ return pct(v); }}}}
+    }
+  });
+
+  H.grid.forEach(function(g){
+    var el=document.getElementById('hleg-'+g.owner.replace(/ /g,'-'));
+    if(!el) return;
+    el.classList.remove('ldim','lhi');
+    if(histLeg && histLeg!==g.owner) el.classList.add('ldim');
+    if(histLeg===g.owner) el.classList.add('lhi');
+  });
+}
+
+function toggleHistLeg(owner){
+  histLeg=(histLeg===owner)?null:owner;
+  buildHistChart();
+}
+
+
 loadData();
+loadHistory();
 </script>
 </body>
 </html>
